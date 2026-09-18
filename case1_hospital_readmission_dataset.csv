@@ -1,0 +1,1201 @@
+patient_id,age,gender,diagnosis_code,admission_type,insurance_type,discharge_disposition,prior_visits,num_diagnoses,num_medications,length_of_stay,systolic_bp,diastolic_bp,heart_rate,glucose_level,target
+1,24,Female,COPD,Urgent,Medicare,Home,1,6,24.0,10,140.0,82.0,76.0,60.0,0
+2,77,Male,COPD,Urgent,Medicare,Home,1,1,10.0,10,135.0,82.0,70.0,86.3,0
+3,68,Female,Kidney Disease,Urgent,Medicaid,Home,0,8,20.0,13,144.0,69.0,90.0,60.0,0
+4,51,Female,Pneumonia,Elective,Medicare,Home,3,1,5.0,14,124.0,91.0,70.0,110.3,0
+5,51,Female,Heart Failure,Urgent,Private,Skilled Nursing Facility,3,9,14.0,2,113.0,79.0,66.0,198.3,1
+6,84,Female,Heart Failure,Emergency,Medicare,Home Health Care,1,8,23.0,11,147.0,85.0,99.0,111.3,0
+7,24,Female,Pneumonia,Urgent,Medicare,Home,0,9,11.0,1,120.0,66.0,79.0,115.7,0
+8,71,Female,COPD,Emergency,Medicare,Home Health Care,0,2,13.0,10,133.0,78.0,80.0,,0
+9,33,Male,Diabetes,Emergency,Medicare,Home,5,10,4.0,9,102.0,93.0,92.0,120.9,0
+10,25,Female,Diabetes,Elective,Medicare,Home Health Care,3,7,13.0,4,120.0,92.0,72.0,111.4,0
+11,58,Female,Kidney Disease,Urgent,Private,Home,0,10,15.0,19,148.0,70.0,75.0,157.1,0
+12,93,Female,Kidney Disease,Elective,Medicare,Home Health Care,1,8,24.0,5,117.0,73.0,87.0,138.9,0
+13,74,Male,COPD,Emergency,Medicaid,Home,1,8,5.0,2,145.0,68.0,59.0,131.5,0
+14,76,Female,Diabetes,Emergency,Private,Transferred,0,1,9.0,7,88.0,72.0,85.0,114.4,1
+15,73,Male,Diabetes,Emergency,Medicaid,Home,0,8,16.0,15,120.0,63.0,71.0,106.2,0
+16,78,Male,COPD,Emergency,Private,Home,4,5,23.0,1,,78.0,95.0,156.7,0
+17,57,Female,Diabetes,Emergency,Medicare,Home,1,10,6.0,10,161.0,88.0,90.0,106.5,0
+18,27,Female,COPD,Emergency,Medicare,Home,0,8,17.0,8,,,88.0,169.3,0
+19,82,Female,,Emergency,Medicare,Home,3,1,22.0,17,142.0,79.0,58.0,,1
+20,52,Male,,Elective,Uninsured,Home Health Care,1,10,16.0,1,149.0,77.0,80.0,177.4,0
+21,56,Female,Heart Failure,Emergency,Medicaid,Home Health Care,1,1,11.0,1,117.0,93.0,64.0,138.9,1
+22,46,Female,Heart Failure,Emergency,Medicare,Home,2,4,6.0,11,123.0,73.0,81.0,81.3,1
+23,32,Female,Stroke,Urgent,Medicaid,Home Health Care,1,3,7.0,4,133.0,73.0,47.0,140.4,0
+24,89,Female,Pneumonia,Emergency,Private,Home Health Care,0,11,2.0,14,103.0,70.0,59.0,94.0,0
+25,78,Male,Heart Failure,Elective,Private,Home,0,2,,6,122.0,66.0,100.0,121.3,0
+26,67,Female,Stroke,Urgent,Medicaid,Home,4,10,11.0,11,153.0,86.0,88.0,,0
+27,48,Male,COPD,Emergency,Private,Home,0,3,4.0,1,,78.0,77.0,114.7,0
+28,81,Female,COPD,Urgent,Private,Home,1,8,1.0,14,127.0,81.0,68.0,157.7,1
+29,59,Male,Stroke,Urgent,Medicaid,Skilled Nursing Facility,2,1,17.0,10,132.0,95.0,66.0,140.7,1
+30,52,Male,Heart Failure,Urgent,Medicare,Skilled Nursing Facility,1,5,2.0,1,140.0,96.0,85.0,75.0,0
+31,52,Female,Heart Failure,Urgent,Medicare,Home Health Care,1,7,4.0,6,144.0,60.0,77.0,,0
+32,35,Female,Pneumonia,Urgent,Uninsured,Home,0,8,15.0,2,120.0,88.0,105.0,130.8,0
+33,25,Female,Heart Failure,Urgent,Medicaid,Home Health Care,0,10,23.0,1,158.0,83.0,79.0,133.7,0
+34,60,Female,Pneumonia,Emergency,Medicare,Home Health Care,3,9,18.0,14,154.0,,83.0,93.0,1
+35,86,Female,Heart Failure,Urgent,Medicaid,Home,0,6,1.0,9,142.0,84.0,61.0,183.7,0
+36,22,Male,,Elective,Medicare,Skilled Nursing Facility,1,4,5.0,16,115.0,59.0,77.0,152.5,0
+37,84,Male,Heart Failure,Urgent,Private,Home,0,3,18.0,5,,98.0,85.0,95.0,0
+38,81,Male,COPD,Urgent,Medicare,Home,1,11,18.0,14,124.0,86.0,76.0,91.1,0
+39,39,Male,Heart Failure,Emergency,Private,Home,0,7,10.0,12,131.0,70.0,75.0,110.9,0
+40,66,Male,Heart Failure,Urgent,Medicaid,Home,2,10,23.0,13,98.0,73.0,87.0,106.7,1
+41,30,Female,Kidney Disease,Elective,Medicare,Skilled Nursing Facility,2,5,22.0,16,139.0,,105.0,170.2,1
+42,76,Female,Diabetes,Emergency,Medicare,Home,0,6,18.0,14,153.0,76.0,84.0,159.4,0
+43,71,Female,Diabetes,Emergency,Private,Home,3,10,18.0,15,,74.0,99.0,121.4,0
+44,45,Male,Heart Failure,Emergency,Medicare,Home,0,8,19.0,15,118.0,64.0,91.0,147.1,1
+45,23,Female,Diabetes,Emergency,Medicare,Home,2,3,4.0,9,116.0,89.0,98.0,152.9,0
+46,92,Female,Diabetes,Urgent,Private,Home,1,6,17.0,14,,95.0,73.0,122.3,0
+47,52,Female,Pneumonia,Emergency,Medicare,Home,5,3,23.0,17,127.0,80.0,79.0,136.1,1
+48,86,Male,Heart Failure,Emergency,Medicare,Home Health Care,1,9,6.0,15,138.0,76.0,79.0,143.8,1
+49,70,Male,Stroke,Urgent,Medicare,Home,0,1,1.0,12,141.0,85.0,90.0,139.5,0
+50,77,Female,Stroke,Urgent,Private,Skilled Nursing Facility,1,10,9.0,2,150.0,80.0,94.0,88.8,0
+51,76,Male,Heart Failure,Urgent,Medicare,Home,3,11,7.0,9,110.0,67.0,84.0,,1
+52,32,Male,Heart Failure,Urgent,Medicare,Home Health Care,0,1,23.0,2,134.0,72.0,95.0,108.5,0
+53,46,Male,Heart Failure,Urgent,Medicare,Skilled Nursing Facility,1,7,11.0,2,123.0,76.0,74.0,91.7,0
+54,53,Female,Pneumonia,Urgent,Medicare,Home,0,1,16.0,7,,83.0,95.0,61.1,0
+55,56,Female,Heart Failure,Urgent,Medicare,Home,2,4,24.0,9,146.0,,97.0,147.0,1
+56,21,Male,Kidney Disease,Emergency,Medicare,Transferred,0,4,19.0,11,148.0,83.0,92.0,133.9,1
+57,60,Male,Kidney Disease,Urgent,Medicare,Home,1,6,18.0,18,155.0,62.0,84.0,,1
+58,29,Female,Kidney Disease,Emergency,Medicare,Home Health Care,0,11,24.0,15,138.0,88.0,93.0,110.4,0
+59,75,Female,COPD,Emergency,Private,Home,1,6,17.0,9,128.0,80.0,69.0,112.6,0
+60,70,Female,Stroke,Emergency,Medicare,Home,1,5,6.0,7,125.0,111.0,85.0,127.3,0
+61,89,Male,Heart Failure,Elective,Medicare,Home,1,2,18.0,14,99.0,,87.0,76.7,1
+62,75,Female,Diabetes,Urgent,Private,Skilled Nursing Facility,1,10,8.0,6,154.0,84.0,62.0,65.8,0
+63,46,Male,Diabetes,Emergency,Private,Home,1,4,8.0,17,124.0,114.0,89.0,140.8,0
+64,92,Female,Stroke,Urgent,Private,Skilled Nursing Facility,0,6,16.0,15,139.0,82.0,63.0,60.0,0
+65,49,Male,COPD,Emergency,Medicare,Home Health Care,1,2,8.0,13,142.0,79.0,76.0,110.7,0
+66,43,Male,Kidney Disease,Urgent,Medicare,Home,0,4,1.0,5,108.0,68.0,83.0,107.0,0
+67,87,Male,Heart Failure,Urgent,Medicare,Home,0,7,24.0,12,113.0,98.0,71.0,115.1,1
+68,46,Male,Stroke,Urgent,Medicare,Home,3,10,14.0,16,158.0,66.0,83.0,130.1,1
+69,23,Female,COPD,Urgent,Medicare,Home,2,4,17.0,2,135.0,85.0,83.0,183.9,0
+70,54,Male,COPD,Emergency,Medicaid,Home Health Care,2,7,20.0,4,120.0,74.0,70.0,60.0,1
+71,79,Male,Stroke,Emergency,Medicare,Home,1,10,16.0,10,128.0,78.0,91.0,155.1,1
+72,32,Male,Diabetes,Elective,Medicaid,Home,0,4,15.0,7,150.0,63.0,71.0,60.0,0
+73,53,Female,Diabetes,Urgent,Medicare,Home Health Care,1,4,20.0,14,147.0,96.0,116.0,175.7,1
+74,28,Female,Pneumonia,Emergency,Medicare,Home Health Care,0,1,8.0,8,104.0,77.0,80.0,60.0,0
+75,70,Female,Heart Failure,Emergency,Private,Home,3,10,20.0,19,159.0,65.0,64.0,217.5,1
+76,54,Female,Diabetes,Emergency,Private,Home Health Care,3,2,18.0,6,147.0,95.0,67.0,104.4,0
+77,43,Female,Heart Failure,Emergency,Medicare,Home,1,3,5.0,7,127.0,74.0,99.0,171.6,1
+78,35,Female,Heart Failure,Emergency,Medicaid,Home Health Care,3,2,4.0,1,109.0,84.0,76.0,163.4,0
+79,61,Male,Kidney Disease,Emergency,Medicare,Home,1,8,22.0,5,149.0,90.0,62.0,102.5,0
+80,69,Female,Pneumonia,Elective,Medicare,Home,3,5,22.0,5,139.0,86.0,95.0,105.6,0
+81,90,Female,Diabetes,Emergency,Private,Home,1,8,24.0,15,104.0,54.0,76.0,86.5,0
+82,51,Female,Diabetes,Emergency,Medicare,Home Health Care,3,7,3.0,7,126.0,88.0,92.0,151.5,0
+83,30,Male,COPD,Emergency,Medicare,Home Health Care,2,1,,4,186.0,79.0,96.0,103.1,1
+84,82,Female,Pneumonia,Emergency,Medicaid,Home,3,4,21.0,6,130.0,76.0,86.0,87.2,1
+85,66,Male,Stroke,Urgent,Medicare,Skilled Nursing Facility,0,1,19.0,11,117.0,79.0,118.0,141.5,0
+86,71,Male,Stroke,Emergency,Medicare,Skilled Nursing Facility,1,1,12.0,15,,61.0,56.0,84.1,0
+87,25,Female,Diabetes,Urgent,Medicare,Home,2,6,13.0,19,162.0,82.0,70.0,106.8,0
+88,42,Male,Diabetes,Urgent,Uninsured,Home Health Care,3,3,11.0,1,145.0,64.0,78.0,124.3,0
+89,77,Male,COPD,Emergency,Medicaid,Home,1,1,1.0,16,155.0,77.0,116.0,94.3,1
+90,82,Female,COPD,Urgent,Medicare,Transferred,0,5,13.0,8,134.0,82.0,109.0,100.3,0
+91,51,Male,COPD,Elective,Medicare,Home,2,5,6.0,16,153.0,93.0,101.0,181.4,0
+92,79,Female,Pneumonia,Emergency,Medicaid,Home,0,11,5.0,1,115.0,70.0,70.0,111.8,0
+93,82,Male,COPD,Emergency,Medicare,Home,1,8,2.0,12,133.0,97.0,72.0,105.6,0
+94,47,Male,Diabetes,Elective,Medicaid,Home,2,5,11.0,18,135.0,,70.0,113.0,0
+95,87,Female,Diabetes,Elective,Private,Home Health Care,1,6,2.0,1,155.0,75.0,70.0,138.2,1
+96,40,Female,Diabetes,Emergency,Medicare,Home,2,1,,16,136.0,67.0,104.0,78.6,0
+97,36,Male,Heart Failure,Urgent,Medicare,Home,1,5,22.0,3,119.0,63.0,78.0,137.1,1
+98,70,Female,Heart Failure,Emergency,Medicare,Home,0,7,20.0,19,131.0,83.0,80.0,130.2,0
+99,67,Female,Pneumonia,Urgent,Medicare,Skilled Nursing Facility,1,1,8.0,15,100.0,71.0,94.0,60.0,0
+100,28,Male,Diabetes,Emergency,Medicare,Skilled Nursing Facility,1,11,4.0,18,88.0,94.0,57.0,191.8,1
+101,82,Female,Heart Failure,Emergency,Private,Home,1,6,13.0,18,145.0,72.0,83.0,178.4,1
+102,33,Male,COPD,Urgent,Medicare,Home,1,9,17.0,7,123.0,69.0,66.0,88.0,0
+103,79,Female,,Elective,Medicaid,Home,3,4,1.0,8,125.0,83.0,78.0,75.1,0
+104,18,Female,Diabetes,Urgent,Private,Skilled Nursing Facility,1,10,21.0,14,145.0,72.0,73.0,129.1,1
+105,79,Female,Kidney Disease,Emergency,Medicare,Home Health Care,3,5,11.0,4,155.0,80.0,72.0,63.0,0
+106,78,Female,Stroke,Emergency,Medicare,Home Health Care,1,11,20.0,6,140.0,92.0,85.0,174.6,0
+107,78,Male,Pneumonia,Elective,Medicare,Skilled Nursing Facility,0,6,2.0,2,165.0,81.0,85.0,101.3,0
+108,69,Male,Pneumonia,Elective,Private,Home,1,8,11.0,17,139.0,81.0,79.0,184.9,0
+109,54,Male,Heart Failure,Emergency,Medicare,Home Health Care,0,3,11.0,5,135.0,82.0,88.0,87.0,0
+110,72,Female,Stroke,Urgent,Private,Home,3,11,2.0,8,134.0,60.0,69.0,,0
+111,39,Female,Diabetes,Emergency,Private,Home,1,3,17.0,9,107.0,85.0,92.0,170.7,1
+112,78,Male,Stroke,Emergency,Private,Home,1,1,23.0,8,147.0,,79.0,107.1,1
+113,60,Female,COPD,Emergency,Uninsured,Home,3,5,13.0,15,86.0,91.0,75.0,130.9,1
+114,53,Female,Heart Failure,Emergency,Private,Transferred,1,10,10.0,18,119.0,87.0,70.0,,1
+115,56,Female,Heart Failure,Emergency,Private,Home,1,11,16.0,11,130.0,78.0,78.0,97.8,1
+116,61,Male,Pneumonia,Urgent,Private,Skilled Nursing Facility,0,10,9.0,16,116.0,92.0,110.0,69.5,0
+117,20,Female,,Emergency,Private,Home Health Care,3,7,9.0,3,122.0,76.0,81.0,,0
+118,28,Female,Heart Failure,Emergency,Private,Home Health Care,1,11,19.0,19,163.0,83.0,65.0,143.3,1
+119,36,Male,,Emergency,Private,Skilled Nursing Facility,0,6,15.0,3,150.0,76.0,96.0,135.6,0
+120,26,Male,Kidney Disease,Emergency,Medicaid,Home,1,6,7.0,2,118.0,86.0,75.0,162.5,0
+121,51,Male,COPD,Emergency,Medicaid,Home,1,2,10.0,1,122.0,75.0,86.0,109.0,0
+122,69,Male,,Urgent,Medicaid,Home,0,9,21.0,5,107.0,100.0,73.0,62.8,1
+123,68,Female,Heart Failure,Emergency,Private,Home,1,4,13.0,16,143.0,104.0,101.0,,0
+124,54,Female,Kidney Disease,Urgent,Medicare,Skilled Nursing Facility,2,3,2.0,6,126.0,90.0,73.0,,0
+125,83,Female,Diabetes,Elective,Private,Home,1,5,21.0,16,95.0,98.0,103.0,141.1,1
+126,61,Male,Kidney Disease,Emergency,Private,Home,1,7,18.0,9,132.0,62.0,66.0,125.5,0
+127,24,Female,Diabetes,Elective,Uninsured,Home,4,3,7.0,2,138.0,63.0,78.0,131.1,0
+128,76,Male,COPD,Elective,Medicare,Home,5,4,24.0,9,147.0,76.0,103.0,62.7,1
+129,62,Female,Diabetes,Urgent,Private,Home Health Care,3,4,23.0,5,129.0,80.0,85.0,88.2,0
+130,66,Male,Heart Failure,Urgent,Private,Home,1,7,24.0,6,123.0,78.0,116.0,189.7,0
+131,61,Male,Kidney Disease,Urgent,Private,Skilled Nursing Facility,2,8,10.0,10,166.0,60.0,78.0,146.3,1
+132,60,Female,COPD,Urgent,Private,Home Health Care,1,8,23.0,16,130.0,94.0,86.0,89.5,1
+133,24,Male,COPD,Urgent,Medicaid,Skilled Nursing Facility,2,2,20.0,12,143.0,106.0,111.0,70.9,0
+134,61,Female,Stroke,Emergency,Medicaid,Home,1,4,21.0,5,120.0,95.0,59.0,99.4,0
+135,79,Female,Stroke,Elective,Medicare,Home Health Care,2,8,14.0,14,142.0,93.0,57.0,107.4,0
+136,41,Female,Kidney Disease,Urgent,Uninsured,Home,2,3,7.0,14,104.0,83.0,70.0,202.0,1
+137,64,Female,Heart Failure,Urgent,Medicare,Home,2,1,6.0,5,122.0,70.0,94.0,112.5,0
+138,20,Male,,Emergency,Private,Home Health Care,1,4,24.0,17,108.0,81.0,58.0,72.4,0
+139,44,Female,Kidney Disease,Emergency,Private,Home Health Care,1,8,13.0,17,119.0,105.0,91.0,117.7,1
+140,51,Male,Diabetes,Emergency,Medicare,Home,1,8,23.0,12,153.0,76.0,90.0,130.6,0
+141,93,Female,Heart Failure,Emergency,Medicare,Skilled Nursing Facility,2,2,14.0,6,119.0,75.0,112.0,68.8,0
+142,34,Male,Kidney Disease,Emergency,Medicare,Home,1,8,13.0,7,143.0,93.0,98.0,136.1,0
+143,39,Male,COPD,Emergency,Private,Home Health Care,3,3,,9,157.0,94.0,87.0,168.4,0
+144,49,Female,COPD,Emergency,Medicaid,Transferred,1,9,10.0,4,130.0,70.0,102.0,125.5,0
+145,94,Male,Stroke,Emergency,Medicare,Home,1,7,14.0,6,148.0,77.0,90.0,88.1,0
+146,83,Female,Pneumonia,Emergency,Private,Skilled Nursing Facility,5,2,3.0,3,,74.0,75.0,98.8,1
+147,20,Female,COPD,Elective,Medicare,Home Health Care,3,4,4.0,3,132.0,81.0,65.0,60.0,0
+148,36,Female,Diabetes,Emergency,Private,Skilled Nursing Facility,4,10,15.0,15,144.0,93.0,73.0,114.6,0
+149,81,Female,Diabetes,Emergency,Medicare,Home Health Care,1,5,6.0,3,163.0,70.0,81.0,132.4,0
+150,22,Female,Heart Failure,Emergency,Medicare,Home Health Care,2,8,17.0,9,119.0,93.0,85.0,,1
+151,83,Male,Kidney Disease,Emergency,Medicare,Home,1,9,12.0,9,113.0,81.0,50.0,197.6,1
+152,39,Male,Kidney Disease,Emergency,Medicaid,Home Health Care,2,1,10.0,1,112.0,108.0,79.0,151.7,0
+153,88,Male,Diabetes,Urgent,Medicaid,Home,2,11,3.0,16,148.0,84.0,82.0,60.0,1
+154,40,Female,Diabetes,Elective,Private,Transferred,0,4,10.0,19,150.0,,90.0,60.0,0
+155,51,Male,Kidney Disease,Emergency,Medicaid,Home,3,9,14.0,13,120.0,87.0,106.0,80.6,1
+156,68,Male,Heart Failure,Urgent,Medicare,Home,2,6,14.0,13,92.0,76.0,85.0,182.9,1
+157,27,Male,COPD,Emergency,Medicare,Skilled Nursing Facility,0,7,7.0,5,118.0,58.0,68.0,155.6,0
+158,60,Male,COPD,Emergency,Medicare,Home,2,4,1.0,17,140.0,77.0,55.0,184.9,1
+159,56,Male,Pneumonia,Emergency,Private,Home,3,10,23.0,15,129.0,77.0,92.0,120.4,0
+160,78,Male,Heart Failure,Emergency,Medicare,Home Health Care,1,2,23.0,9,133.0,61.0,69.0,111.6,1
+161,94,Male,Pneumonia,Urgent,Uninsured,Home,2,10,22.0,14,121.0,79.0,95.0,70.1,0
+162,69,Male,Diabetes,Urgent,Medicare,Home,1,3,7.0,19,148.0,55.0,103.0,134.0,0
+163,49,Male,Pneumonia,Urgent,Medicare,Home,0,10,15.0,12,136.0,76.0,59.0,112.2,1
+164,49,Male,Heart Failure,Emergency,Medicare,Home,1,1,4.0,4,141.0,83.0,90.0,,0
+165,50,Female,COPD,Urgent,Medicare,Home,0,1,,7,133.0,,101.0,184.7,0
+166,80,Male,COPD,Emergency,Private,Home,3,2,1.0,4,139.0,75.0,97.0,114.9,0
+167,42,Male,Heart Failure,Emergency,Medicaid,Home,2,7,12.0,7,138.0,79.0,51.0,173.2,1
+168,30,Male,Heart Failure,Emergency,Medicare,Home,0,3,21.0,17,113.0,71.0,69.0,60.0,0
+169,43,Female,Heart Failure,Urgent,Private,Home,0,7,18.0,4,137.0,80.0,63.0,227.5,0
+170,19,Female,Diabetes,Elective,Medicaid,Home Health Care,1,10,21.0,17,144.0,81.0,90.0,105.1,0
+171,26,Female,Heart Failure,Emergency,Private,Home Health Care,2,1,12.0,6,151.0,69.0,88.0,,0
+172,24,Male,Stroke,Urgent,Uninsured,Home,1,6,3.0,10,137.0,83.0,42.0,154.7,0
+173,77,Male,Diabetes,Urgent,Private,Home,0,9,1.0,11,113.0,83.0,77.0,100.1,0
+174,73,Male,Kidney Disease,Urgent,Private,Skilled Nursing Facility,3,5,4.0,3,115.0,78.0,94.0,152.8,0
+175,71,Female,Stroke,Emergency,Private,Home Health Care,0,11,2.0,4,122.0,109.0,84.0,154.8,1
+176,53,Female,Heart Failure,Urgent,Medicaid,Home,1,8,,6,133.0,78.0,84.0,91.5,0
+177,73,Female,Pneumonia,Urgent,Private,Home,2,1,2.0,2,128.0,77.0,77.0,91.9,0
+178,30,Female,Kidney Disease,Elective,Medicare,Home,3,6,5.0,15,110.0,75.0,66.0,121.8,0
+179,87,Female,Pneumonia,Emergency,Private,Skilled Nursing Facility,0,5,11.0,11,,68.0,82.0,115.4,1
+180,56,Female,COPD,Elective,Uninsured,Skilled Nursing Facility,0,2,18.0,17,92.0,88.0,83.0,175.7,1
+181,90,Female,COPD,Emergency,Medicare,Skilled Nursing Facility,1,11,17.0,17,74.0,72.0,91.0,148.1,0
+182,29,Male,Heart Failure,Urgent,Private,Home,0,3,2.0,7,128.0,73.0,92.0,117.2,0
+183,56,Male,COPD,Emergency,Private,Home,1,1,22.0,16,172.0,74.0,83.0,144.2,1
+184,71,Female,Stroke,Emergency,Medicare,Home,0,3,14.0,2,162.0,68.0,98.0,60.0,0
+185,56,Male,Stroke,Emergency,Medicaid,Home,2,10,9.0,9,112.0,59.0,76.0,95.4,1
+186,52,Male,Heart Failure,Emergency,Private,Home,1,7,10.0,13,133.0,74.0,60.0,131.5,0
+187,30,Female,Pneumonia,Emergency,Uninsured,Home Health Care,3,10,21.0,9,104.0,90.0,89.0,164.6,1
+188,47,Male,,Emergency,Medicare,Home,2,6,12.0,15,106.0,,84.0,128.0,0
+189,36,Female,Stroke,Emergency,Medicare,Skilled Nursing Facility,0,2,6.0,17,108.0,,89.0,,1
+190,41,Female,Heart Failure,Emergency,Private,Home,2,5,11.0,9,126.0,89.0,63.0,154.7,0
+191,70,Male,Stroke,Urgent,Medicare,Home,2,3,2.0,6,127.0,86.0,109.0,100.5,0
+192,66,Female,Kidney Disease,Elective,Medicare,Skilled Nursing Facility,1,7,4.0,12,135.0,103.0,93.0,114.4,0
+193,64,Female,Heart Failure,Urgent,Medicare,Home Health Care,3,3,8.0,17,142.0,79.0,78.0,136.3,1
+194,45,Female,Heart Failure,Emergency,Medicare,Home,2,11,6.0,19,124.0,81.0,68.0,102.1,1
+195,91,Male,Kidney Disease,Emergency,Medicaid,Home Health Care,2,5,9.0,16,131.0,80.0,98.0,181.3,1
+196,24,Female,Heart Failure,Elective,Private,Home,2,4,2.0,5,110.0,99.0,65.0,75.7,0
+197,44,Female,,Emergency,Medicaid,Home,4,11,15.0,4,106.0,80.0,116.0,,1
+198,27,Female,Stroke,Emergency,Private,Home,2,6,3.0,11,103.0,72.0,73.0,149.4,0
+199,44,Male,COPD,Elective,Medicare,Home,0,2,6.0,8,142.0,87.0,108.0,107.5,0
+200,92,Male,Diabetes,Elective,Medicare,Home Health Care,2,6,24.0,12,124.0,70.0,79.0,98.4,0
+201,46,Female,COPD,Emergency,Medicare,Home,2,3,1.0,18,96.0,86.0,106.0,117.0,0
+202,87,Male,Heart Failure,Urgent,Medicare,Home Health Care,4,8,7.0,11,129.0,85.0,71.0,152.5,1
+203,56,Male,Stroke,Emergency,Medicare,Skilled Nursing Facility,1,7,13.0,7,108.0,78.0,82.0,100.0,0
+204,71,Male,Diabetes,Urgent,Medicare,Home,2,9,8.0,17,160.0,87.0,94.0,77.2,0
+205,53,Male,Heart Failure,Emergency,Medicare,Home,1,11,8.0,9,120.0,62.0,92.0,,0
+206,38,Male,Diabetes,Emergency,Medicare,Home,1,9,4.0,12,142.0,82.0,99.0,136.0,0
+207,76,Male,Stroke,Urgent,Private,Skilled Nursing Facility,1,4,11.0,3,150.0,74.0,75.0,160.3,0
+208,92,Female,Heart Failure,Emergency,Medicaid,Home Health Care,1,3,19.0,10,113.0,114.0,83.0,150.4,1
+209,38,Male,Kidney Disease,Urgent,Private,Home Health Care,2,6,15.0,9,131.0,82.0,101.0,207.2,1
+210,77,Male,Pneumonia,Emergency,Private,Home,2,5,23.0,3,140.0,73.0,71.0,164.6,0
+211,38,Male,Kidney Disease,Elective,Medicaid,Home,1,4,17.0,5,132.0,63.0,91.0,91.0,0
+212,73,Female,Stroke,Urgent,Medicare,Home,3,9,19.0,14,136.0,96.0,79.0,138.8,1
+213,78,Male,Kidney Disease,Emergency,Medicaid,Home,0,11,11.0,4,106.0,76.0,85.0,97.7,0
+214,52,Female,Stroke,Urgent,Medicare,Home Health Care,1,5,15.0,3,140.0,71.0,83.0,101.8,0
+215,74,Female,Heart Failure,Emergency,Medicare,Home,3,8,14.0,2,121.0,,70.0,,1
+216,38,Female,Kidney Disease,Emergency,Medicare,Home,2,11,20.0,1,136.0,88.0,78.0,108.6,0
+217,24,Female,COPD,Emergency,Medicare,Home,0,1,13.0,9,147.0,88.0,84.0,141.8,0
+218,25,Male,COPD,Elective,Medicare,Home,0,5,10.0,10,142.0,80.0,80.0,117.4,0
+219,52,Female,Stroke,Urgent,Private,Home Health Care,2,9,2.0,12,136.0,82.0,106.0,76.0,0
+220,87,Male,Stroke,Elective,Private,Home,0,6,21.0,11,142.0,83.0,97.0,60.0,0
+221,27,Female,Pneumonia,Elective,Private,Skilled Nursing Facility,1,9,11.0,11,142.0,84.0,86.0,204.5,0
+222,53,Female,COPD,Elective,Medicaid,Skilled Nursing Facility,2,6,20.0,19,157.0,85.0,71.0,133.0,1
+223,72,Female,COPD,Emergency,Medicaid,Skilled Nursing Facility,0,1,17.0,5,,93.0,70.0,87.0,0
+224,33,Female,Diabetes,Elective,Medicare,Home Health Care,1,5,1.0,14,133.0,81.0,112.0,138.5,0
+225,73,Male,Diabetes,Urgent,Private,Home Health Care,0,5,16.0,2,147.0,,67.0,207.6,1
+226,41,Female,Diabetes,Emergency,Medicaid,Home Health Care,2,10,12.0,17,121.0,78.0,84.0,144.8,0
+227,80,Female,Heart Failure,Urgent,Medicare,Home,1,2,6.0,7,106.0,89.0,87.0,,0
+228,62,Female,Heart Failure,Emergency,Medicare,Home,2,2,7.0,7,139.0,59.0,77.0,226.1,0
+229,60,Male,Kidney Disease,Emergency,Private,Home Health Care,1,2,16.0,3,126.0,59.0,67.0,60.0,1
+230,31,Female,,Emergency,Medicaid,Home,2,7,3.0,10,108.0,91.0,70.0,111.8,0
+231,53,Male,Stroke,Emergency,Medicaid,Home,1,11,15.0,8,139.0,98.0,74.0,74.7,0
+232,83,Male,Pneumonia,Emergency,Medicaid,Skilled Nursing Facility,1,7,21.0,19,156.0,65.0,71.0,90.4,1
+233,19,Male,Heart Failure,Elective,Medicare,Home,0,9,3.0,4,101.0,81.0,102.0,131.4,0
+234,76,Female,Heart Failure,Urgent,Medicaid,Home,2,10,1.0,8,148.0,75.0,82.0,60.0,1
+235,55,Male,Heart Failure,Emergency,Medicare,Home Health Care,1,7,2.0,18,84.0,77.0,74.0,116.4,1
+236,73,Male,Stroke,Emergency,Medicare,Home,1,7,18.0,16,123.0,84.0,84.0,165.9,0
+237,69,Male,Heart Failure,Emergency,Private,Skilled Nursing Facility,0,3,21.0,15,163.0,64.0,92.0,86.3,1
+238,51,Female,COPD,Emergency,Medicare,Home,3,11,24.0,10,124.0,67.0,77.0,64.4,1
+239,41,Male,Stroke,Urgent,Private,Skilled Nursing Facility,3,9,1.0,17,132.0,76.0,96.0,,1
+240,66,Female,Stroke,Emergency,Medicare,Skilled Nursing Facility,2,10,12.0,5,144.0,78.0,63.0,106.5,1
+241,28,Female,Diabetes,Urgent,Private,Home,2,11,2.0,16,99.0,66.0,100.0,96.2,0
+242,62,Female,Heart Failure,Urgent,Medicaid,Home,6,4,9.0,12,131.0,89.0,82.0,72.5,0
+243,25,Female,Heart Failure,Urgent,Private,Home,1,2,8.0,7,131.0,75.0,81.0,140.8,0
+244,68,Male,Heart Failure,Elective,Medicaid,Home,0,10,15.0,5,164.0,75.0,72.0,143.8,0
+245,66,Male,Heart Failure,Emergency,Uninsured,Home,3,6,22.0,10,108.0,83.0,64.0,77.4,0
+246,24,Male,COPD,Elective,Medicaid,Transferred,4,11,20.0,1,123.0,78.0,57.0,,0
+247,76,Female,Stroke,Urgent,Private,Home,1,8,2.0,14,113.0,90.0,71.0,125.5,1
+248,50,Female,COPD,Urgent,Private,Skilled Nursing Facility,0,3,6.0,5,111.0,69.0,91.0,81.4,0
+249,78,Female,Pneumonia,Urgent,Medicare,Home,1,4,7.0,8,150.0,63.0,68.0,127.1,0
+250,21,Male,Heart Failure,Urgent,Medicare,Transferred,0,7,7.0,4,130.0,76.0,59.0,178.7,0
+251,31,Male,Kidney Disease,Elective,Medicare,Home,1,5,9.0,9,120.0,81.0,68.0,117.6,0
+252,56,Male,Pneumonia,Emergency,Medicare,Home,1,4,15.0,8,121.0,65.0,76.0,71.5,0
+253,32,Male,Kidney Disease,Urgent,Medicare,Home Health Care,1,3,,4,120.0,63.0,77.0,135.7,1
+254,43,Male,Stroke,Urgent,Medicare,Home,0,8,23.0,17,,82.0,80.0,112.9,0
+255,68,Female,Diabetes,Emergency,Medicaid,Skilled Nursing Facility,0,1,17.0,15,107.0,71.0,97.0,114.0,0
+256,29,Male,Heart Failure,Elective,Medicare,Home,1,2,8.0,8,125.0,63.0,101.0,139.0,0
+257,70,Female,Diabetes,Emergency,Private,Home,1,1,5.0,2,124.0,92.0,112.0,147.6,0
+258,25,Male,COPD,Urgent,Medicare,Home,1,9,10.0,17,116.0,72.0,58.0,121.4,0
+259,31,Male,Stroke,Emergency,Private,Home Health Care,2,1,20.0,14,133.0,94.0,69.0,117.6,0
+260,63,Female,Diabetes,Emergency,Medicare,Home,1,5,24.0,11,134.0,,92.0,202.5,1
+261,79,Female,Kidney Disease,Urgent,Medicaid,Home,1,2,10.0,12,120.0,84.0,75.0,168.0,0
+262,31,Male,COPD,Emergency,Medicare,Home,1,7,5.0,1,127.0,77.0,95.0,153.3,0
+263,41,Male,Heart Failure,Emergency,Private,Home,3,1,,10,169.0,48.0,85.0,,0
+264,89,Male,,Emergency,Medicare,Home,2,1,2.0,4,168.0,66.0,106.0,79.8,0
+265,94,Female,Pneumonia,Emergency,Private,Skilled Nursing Facility,3,5,16.0,13,111.0,78.0,98.0,165.1,1
+266,62,Male,Pneumonia,Urgent,Medicare,Home,0,8,15.0,18,114.0,84.0,98.0,125.8,0
+267,52,Female,COPD,Elective,Medicaid,Home Health Care,2,2,16.0,11,111.0,59.0,76.0,96.9,0
+268,44,Male,Diabetes,Emergency,Medicare,Home,0,6,1.0,12,149.0,79.0,81.0,110.3,0
+269,65,Female,Pneumonia,Urgent,Medicaid,Home,1,9,11.0,13,,67.0,77.0,81.4,0
+270,63,Male,Heart Failure,Emergency,Medicaid,Home,1,7,5.0,18,134.0,83.0,59.0,162.3,0
+271,40,Female,Stroke,Urgent,Medicare,Home,0,9,9.0,1,166.0,80.0,104.0,147.3,0
+272,19,Female,Heart Failure,Emergency,Medicare,Home,0,4,15.0,6,130.0,,93.0,,0
+273,29,Male,Heart Failure,Emergency,Medicare,Home,0,11,7.0,6,143.0,93.0,77.0,118.3,0
+274,91,Male,COPD,Emergency,Medicare,Home,2,2,16.0,14,139.0,86.0,102.0,92.8,0
+275,50,Female,COPD,Urgent,Uninsured,Transferred,3,7,7.0,9,119.0,90.0,73.0,60.0,0
+276,55,Male,COPD,Emergency,Medicare,Home,2,5,13.0,15,149.0,76.0,54.0,63.5,1
+277,53,Male,COPD,Emergency,Medicare,Home,2,1,12.0,9,115.0,114.0,97.0,90.3,0
+278,78,Male,Stroke,Urgent,Uninsured,Home,1,11,10.0,19,154.0,65.0,63.0,,0
+279,23,Male,COPD,Urgent,Medicare,Home,1,8,4.0,15,119.0,74.0,79.0,131.6,0
+280,24,Male,COPD,Emergency,Medicare,Home Health Care,3,3,14.0,1,121.0,91.0,85.0,152.5,0
+281,39,Male,COPD,Urgent,Private,Home,2,1,24.0,19,110.0,89.0,88.0,114.9,1
+282,55,Male,Heart Failure,Elective,Private,Home Health Care,1,8,16.0,19,113.0,86.0,95.0,176.4,1
+283,69,Male,Pneumonia,Emergency,Private,Home,1,6,18.0,1,122.0,88.0,91.0,88.7,0
+284,55,Male,Diabetes,Urgent,Medicaid,Home,2,1,20.0,8,86.0,55.0,90.0,114.6,0
+285,51,Male,Pneumonia,Emergency,Uninsured,Transferred,3,11,1.0,19,126.0,99.0,70.0,118.0,1
+286,90,Female,Heart Failure,Urgent,Medicare,Home,1,8,20.0,16,121.0,78.0,86.0,,1
+287,30,Male,Stroke,Emergency,Uninsured,Skilled Nursing Facility,3,6,6.0,9,144.0,95.0,59.0,124.2,0
+288,62,Male,COPD,Urgent,Private,Home,1,3,16.0,11,138.0,56.0,105.0,125.3,1
+289,59,Male,Stroke,Emergency,Private,Transferred,0,3,24.0,1,117.0,83.0,61.0,60.0,0
+290,54,Female,COPD,Emergency,Medicare,Home,3,5,22.0,11,122.0,73.0,77.0,,0
+291,80,Male,Heart Failure,Elective,Medicare,Home,1,1,10.0,13,126.0,87.0,62.0,163.8,0
+292,38,Male,Kidney Disease,Emergency,Private,Skilled Nursing Facility,2,5,21.0,7,157.0,84.0,71.0,,1
+293,91,Male,Pneumonia,Elective,Medicaid,Home,2,3,15.0,6,115.0,84.0,82.0,173.7,1
+294,43,Male,Kidney Disease,Elective,Medicaid,Home,2,2,4.0,16,117.0,67.0,74.0,140.0,0
+295,59,Male,COPD,Elective,Private,Transferred,2,2,6.0,9,110.0,79.0,99.0,,0
+296,58,Male,Pneumonia,Emergency,Medicaid,Home Health Care,0,4,23.0,6,103.0,78.0,85.0,86.7,0
+297,83,Female,Kidney Disease,Urgent,Medicare,Home Health Care,2,5,22.0,8,136.0,86.0,75.0,195.8,0
+298,51,Female,Pneumonia,Emergency,Medicare,Home Health Care,4,4,22.0,10,134.0,92.0,80.0,176.5,0
+299,39,Male,Diabetes,Emergency,Medicare,Skilled Nursing Facility,1,8,10.0,5,153.0,82.0,100.0,115.2,0
+300,19,Female,Pneumonia,Elective,Medicare,Skilled Nursing Facility,1,6,8.0,11,149.0,,96.0,125.4,0
+301,46,Female,Pneumonia,Urgent,Medicare,Home Health Care,0,3,20.0,17,173.0,81.0,65.0,94.2,0
+302,81,Male,Stroke,Emergency,Private,Home,1,11,,15,129.0,111.0,72.0,125.4,0
+303,18,Male,Diabetes,Emergency,Private,Home,0,9,22.0,5,125.0,100.0,89.0,93.0,0
+304,87,Male,COPD,Urgent,Medicaid,Home Health Care,1,6,15.0,9,107.0,44.0,87.0,116.9,1
+305,59,Female,Kidney Disease,Urgent,Medicare,Skilled Nursing Facility,3,1,16.0,11,143.0,81.0,66.0,192.4,0
+306,28,Male,COPD,Emergency,Private,Home,1,11,11.0,13,132.0,91.0,93.0,116.2,0
+307,41,Female,Pneumonia,Elective,Private,Home,1,9,24.0,15,142.0,78.0,69.0,78.1,0
+308,60,Male,COPD,Emergency,Private,Home,2,6,18.0,10,109.0,74.0,102.0,65.3,1
+309,42,Female,Heart Failure,Emergency,Medicaid,Home,1,2,2.0,6,136.0,77.0,90.0,,0
+310,26,Female,Kidney Disease,Urgent,Private,Skilled Nursing Facility,0,2,13.0,13,134.0,87.0,65.0,89.6,0
+311,69,Male,Heart Failure,Elective,Medicaid,Home,0,4,21.0,3,133.0,,74.0,129.9,0
+312,69,Male,,Emergency,Medicaid,Home Health Care,0,3,2.0,13,118.0,94.0,74.0,60.0,1
+313,27,Female,Pneumonia,Emergency,Private,Skilled Nursing Facility,0,3,18.0,18,151.0,79.0,84.0,147.6,1
+314,39,Male,,Emergency,Medicare,Transferred,2,5,6.0,14,167.0,69.0,79.0,77.6,0
+315,36,Male,,Elective,Medicare,Home,1,1,13.0,9,110.0,93.0,65.0,121.9,0
+316,68,Female,Diabetes,Emergency,Medicare,Skilled Nursing Facility,1,4,22.0,16,143.0,61.0,61.0,106.5,1
+317,74,Male,Heart Failure,Emergency,Medicaid,Home Health Care,2,10,12.0,11,78.0,73.0,90.0,188.7,1
+318,73,Male,Stroke,Elective,Medicaid,Skilled Nursing Facility,3,10,1.0,11,142.0,73.0,86.0,126.9,0
+319,90,Male,Heart Failure,Emergency,Private,Home,0,1,1.0,17,96.0,106.0,84.0,,0
+320,77,Male,Heart Failure,Urgent,Medicare,Home,3,8,18.0,4,121.0,72.0,86.0,142.4,1
+321,42,Female,Diabetes,Emergency,Medicare,Home Health Care,3,11,23.0,15,106.0,54.0,73.0,177.0,1
+322,26,Female,COPD,Urgent,Private,Home,1,7,8.0,13,126.0,73.0,85.0,111.6,0
+323,65,Male,Stroke,Emergency,Medicare,Home,3,5,23.0,11,145.0,85.0,120.0,,1
+324,88,Male,Kidney Disease,Emergency,Private,Home Health Care,1,6,11.0,2,97.0,89.0,100.0,168.7,0
+325,93,Female,Pneumonia,Emergency,Medicare,Home Health Care,1,3,2.0,15,124.0,107.0,78.0,156.2,1
+326,35,Male,Heart Failure,Urgent,Medicaid,Home,2,5,,5,121.0,97.0,74.0,141.2,1
+327,36,Male,Diabetes,Urgent,Medicaid,Home,1,11,24.0,18,158.0,82.0,39.0,,0
+328,20,Male,COPD,Emergency,Private,Home,2,7,7.0,16,138.0,69.0,98.0,113.6,0
+329,28,Male,,Emergency,Medicare,Skilled Nursing Facility,3,5,24.0,7,,99.0,94.0,165.5,1
+330,60,Female,Diabetes,Elective,Private,Transferred,2,2,16.0,9,122.0,76.0,74.0,173.8,0
+331,60,Male,Diabetes,Emergency,Medicaid,Home,3,10,10.0,1,158.0,72.0,61.0,96.3,1
+332,46,Male,Heart Failure,Emergency,Medicaid,Home,1,2,17.0,10,143.0,75.0,65.0,90.2,0
+333,41,Female,COPD,Urgent,Medicaid,Home,2,8,10.0,2,113.0,65.0,89.0,83.8,0
+334,81,Male,Pneumonia,Emergency,Medicare,Home,3,4,3.0,19,125.0,74.0,81.0,153.2,1
+335,53,Female,Heart Failure,Emergency,Medicaid,Skilled Nursing Facility,3,4,21.0,13,126.0,77.0,92.0,82.8,0
+336,80,Male,COPD,Emergency,Medicare,Home,1,2,9.0,5,120.0,89.0,83.0,152.7,0
+337,92,Male,Kidney Disease,Emergency,Medicare,Home,0,5,14.0,16,99.0,75.0,97.0,141.8,1
+338,42,Male,Kidney Disease,Emergency,Medicaid,Home,1,8,18.0,1,118.0,65.0,88.0,98.2,0
+339,33,Female,Kidney Disease,Urgent,Medicaid,Home,1,5,2.0,11,155.0,61.0,94.0,182.6,0
+340,91,Female,COPD,Urgent,Medicare,Skilled Nursing Facility,0,1,18.0,3,123.0,83.0,51.0,61.5,1
+341,66,Male,Kidney Disease,Emergency,Medicare,Home Health Care,4,3,9.0,2,128.0,81.0,63.0,186.4,0
+342,40,Male,Diabetes,Urgent,Medicare,Home Health Care,2,2,14.0,5,133.0,73.0,77.0,132.8,0
+343,65,Male,Diabetes,Emergency,Medicare,Home,3,5,11.0,6,170.0,74.0,98.0,60.0,0
+344,57,Female,Heart Failure,Urgent,Medicaid,Skilled Nursing Facility,1,10,19.0,14,130.0,85.0,110.0,183.7,1
+345,87,Male,COPD,Emergency,Medicare,Home,2,11,5.0,17,150.0,97.0,80.0,158.9,1
+346,37,Female,Diabetes,Urgent,Private,Skilled Nursing Facility,0,11,3.0,15,,71.0,73.0,102.9,0
+347,94,Female,Diabetes,Emergency,Medicare,Skilled Nursing Facility,6,2,10.0,15,125.0,81.0,53.0,81.4,1
+348,90,Female,Kidney Disease,Emergency,Medicare,Home,1,6,3.0,11,130.0,91.0,95.0,60.0,0
+349,31,Male,Diabetes,Emergency,Private,Skilled Nursing Facility,0,1,6.0,8,116.0,71.0,74.0,216.6,0
+350,30,Male,Diabetes,Emergency,Medicare,Home,1,6,16.0,5,126.0,80.0,126.0,83.1,0
+351,59,Male,Heart Failure,Emergency,Medicare,Home Health Care,4,7,20.0,18,146.0,80.0,71.0,69.5,0
+352,21,Female,COPD,Urgent,Uninsured,Home,0,9,17.0,10,116.0,64.0,114.0,130.7,0
+353,41,Female,Diabetes,Urgent,Private,Home,1,4,8.0,11,130.0,82.0,93.0,60.0,0
+354,51,Female,Diabetes,Emergency,Private,Home,1,1,20.0,1,143.0,80.0,67.0,80.7,0
+355,92,Male,Diabetes,Elective,Medicare,Home,0,5,10.0,9,115.0,87.0,85.0,159.8,0
+356,94,Male,Kidney Disease,Urgent,Medicaid,Home,0,5,5.0,13,150.0,66.0,94.0,138.6,0
+357,29,Female,Stroke,Elective,Uninsured,Home,1,7,19.0,10,131.0,80.0,79.0,,0
+358,86,Female,COPD,Urgent,Private,Home Health Care,1,2,13.0,12,127.0,97.0,95.0,,1
+359,25,Female,Pneumonia,Urgent,Medicare,Home,1,7,9.0,16,94.0,105.0,94.0,102.3,0
+360,75,Female,Kidney Disease,Emergency,Medicare,Home,0,5,16.0,1,123.0,95.0,91.0,117.5,0
+361,83,Male,Stroke,Urgent,Medicare,Transferred,3,9,18.0,18,,66.0,82.0,89.5,0
+362,86,Male,Pneumonia,Elective,Medicare,Transferred,1,11,6.0,16,161.0,85.0,64.0,96.8,0
+363,35,Male,Stroke,Emergency,Private,Home,1,3,3.0,8,140.0,74.0,81.0,95.6,0
+364,86,Female,Stroke,Emergency,Medicare,Home,0,9,13.0,15,150.0,83.0,85.0,91.0,0
+365,26,Female,Kidney Disease,Emergency,Medicare,Home Health Care,1,2,2.0,2,108.0,71.0,54.0,161.8,0
+366,57,Male,COPD,Elective,Medicare,Home Health Care,0,11,16.0,6,128.0,59.0,85.0,150.8,1
+367,54,Female,Heart Failure,Emergency,Medicaid,Home,0,6,11.0,3,152.0,76.0,81.0,82.7,0
+368,42,Female,Heart Failure,Urgent,Medicare,Home Health Care,2,9,6.0,13,114.0,89.0,63.0,72.2,0
+369,19,Female,COPD,Urgent,Medicare,Home,3,9,15.0,17,147.0,83.0,77.0,113.7,1
+370,77,Female,COPD,Elective,Medicare,Home,3,7,10.0,12,143.0,85.0,77.0,206.2,1
+371,43,Male,Diabetes,Emergency,Uninsured,Home Health Care,0,5,10.0,14,135.0,83.0,111.0,78.9,0
+372,68,Male,COPD,Urgent,Medicare,Home Health Care,0,9,,3,124.0,85.0,85.0,,0
+373,49,Female,COPD,Elective,Medicaid,Skilled Nursing Facility,0,6,17.0,18,112.0,86.0,98.0,123.5,0
+374,46,Female,Kidney Disease,Emergency,Medicare,Home,0,8,22.0,4,162.0,77.0,80.0,115.7,1
+375,86,Male,,Urgent,Medicare,Home,1,7,15.0,11,141.0,81.0,54.0,101.7,1
+376,25,Male,Diabetes,Emergency,Medicare,Home,2,6,6.0,13,136.0,101.0,92.0,166.2,0
+377,74,Female,Kidney Disease,Urgent,Medicare,Home,2,2,21.0,17,123.0,82.0,72.0,138.2,0
+378,75,Female,Kidney Disease,Emergency,Medicare,Home,5,4,3.0,18,131.0,81.0,77.0,153.8,1
+379,47,Male,Stroke,Emergency,Medicaid,Home,3,11,7.0,12,133.0,81.0,66.0,143.6,0
+380,38,Female,Kidney Disease,Emergency,Private,Home,3,6,1.0,11,137.0,77.0,83.0,155.8,1
+381,18,Male,Stroke,Emergency,Medicare,Home Health Care,1,7,,8,143.0,75.0,98.0,183.4,0
+382,90,Male,Diabetes,Emergency,Medicare,Home,3,3,2.0,11,116.0,83.0,96.0,,0
+383,90,Female,Diabetes,Urgent,Medicaid,Home,1,8,14.0,13,104.0,74.0,106.0,213.0,0
+384,36,Male,Diabetes,Emergency,Medicare,Home Health Care,2,6,5.0,13,132.0,78.0,108.0,168.7,0
+385,20,Female,Pneumonia,Emergency,Medicare,Home,2,3,6.0,12,99.0,71.0,51.0,93.2,0
+386,27,Male,Stroke,Urgent,Medicare,Skilled Nursing Facility,3,2,15.0,9,124.0,81.0,64.0,153.9,0
+387,23,Female,Diabetes,Urgent,Medicare,Home,2,5,20.0,4,121.0,87.0,55.0,148.4,0
+388,81,Male,COPD,Emergency,Medicaid,Home,1,7,1.0,2,139.0,77.0,91.0,196.8,1
+389,86,Female,Diabetes,Elective,Uninsured,Skilled Nursing Facility,2,4,4.0,8,166.0,56.0,72.0,,0
+390,29,Male,Heart Failure,Emergency,Uninsured,Home Health Care,2,3,7.0,8,95.0,87.0,75.0,142.3,1
+391,75,Female,Heart Failure,Urgent,Uninsured,Home Health Care,5,3,23.0,12,171.0,81.0,79.0,92.8,1
+392,31,Male,Heart Failure,Emergency,Medicare,Home Health Care,2,4,2.0,18,126.0,68.0,88.0,140.5,0
+393,46,Male,Stroke,Urgent,Medicare,Home,1,9,5.0,14,136.0,89.0,60.0,,0
+394,64,Male,Diabetes,Elective,Medicare,Home Health Care,2,6,10.0,16,105.0,63.0,63.0,139.2,1
+395,73,Female,Kidney Disease,Urgent,Medicare,Skilled Nursing Facility,0,6,8.0,11,148.0,93.0,82.0,,1
+396,85,Male,Pneumonia,Urgent,Medicare,Transferred,2,2,2.0,18,131.0,79.0,100.0,151.7,1
+397,21,Female,Heart Failure,Urgent,Medicare,Home,2,6,,18,129.0,53.0,82.0,128.2,0
+398,33,Female,Heart Failure,Emergency,Medicaid,Home,3,11,15.0,3,95.0,,70.0,126.1,0
+399,39,Female,Kidney Disease,Urgent,Medicare,Skilled Nursing Facility,2,9,5.0,13,,75.0,50.0,198.0,1
+400,41,Female,Diabetes,Urgent,Medicare,Home,0,5,17.0,10,145.0,73.0,96.0,104.7,0
+401,94,Male,Stroke,Elective,Private,Home,1,4,2.0,19,126.0,71.0,71.0,,0
+402,77,Female,Heart Failure,Emergency,Medicare,Home,4,4,18.0,12,151.0,78.0,65.0,124.0,0
+403,42,Female,Pneumonia,Emergency,Private,Home,2,1,7.0,1,150.0,74.0,56.0,127.9,0
+404,92,Male,Kidney Disease,Urgent,Medicare,Home,1,1,6.0,4,118.0,58.0,60.0,208.9,0
+405,56,Male,Diabetes,Emergency,Medicaid,Home,0,9,5.0,3,159.0,95.0,68.0,122.6,0
+406,56,Female,Diabetes,Emergency,Medicare,Home,0,10,,4,,77.0,78.0,97.3,0
+407,51,Male,Stroke,Emergency,Medicaid,Home,0,11,13.0,2,131.0,71.0,64.0,194.8,1
+408,29,Female,,Urgent,Medicare,Skilled Nursing Facility,2,7,17.0,15,132.0,66.0,85.0,,1
+409,89,Male,COPD,Emergency,Medicare,Home,3,11,5.0,10,,89.0,78.0,60.0,1
+410,19,Male,COPD,Emergency,Medicaid,Home,5,5,2.0,13,83.0,64.0,115.0,90.4,0
+411,31,Female,Diabetes,Emergency,Medicare,Home,3,3,1.0,19,127.0,82.0,56.0,70.1,1
+412,35,Male,Kidney Disease,Elective,Medicare,Home,0,3,11.0,13,105.0,73.0,84.0,60.0,0
+413,39,Female,Kidney Disease,Urgent,Private,Transferred,1,3,8.0,10,159.0,74.0,85.0,105.5,1
+414,28,Female,Diabetes,Emergency,Medicare,Skilled Nursing Facility,1,9,19.0,6,159.0,67.0,67.0,117.2,0
+415,19,Male,Kidney Disease,Emergency,Medicaid,Home,1,1,19.0,15,145.0,73.0,83.0,167.2,0
+416,70,Male,Heart Failure,Urgent,Medicaid,Home,2,11,8.0,10,126.0,,94.0,,0
+417,92,Female,,Emergency,Medicare,Home,0,9,11.0,15,112.0,83.0,83.0,143.4,1
+418,27,Female,COPD,Urgent,Medicaid,Home,3,5,10.0,1,118.0,71.0,103.0,84.3,0
+419,40,Male,Stroke,Emergency,Medicare,Home,1,8,17.0,4,165.0,79.0,49.0,,0
+420,56,Female,Heart Failure,Elective,Private,Home,2,2,16.0,3,118.0,91.0,69.0,175.6,0
+421,89,Male,Heart Failure,Emergency,Medicare,Home,2,5,16.0,13,88.0,,104.0,,0
+422,71,Male,COPD,Urgent,Medicare,Home Health Care,1,2,2.0,10,149.0,80.0,96.0,136.9,0
+423,76,Female,Kidney Disease,Emergency,Medicare,Home,0,2,9.0,7,157.0,69.0,90.0,69.4,0
+424,62,Male,Heart Failure,Elective,Private,Home,0,1,24.0,6,160.0,67.0,100.0,162.2,0
+425,50,Female,Diabetes,Elective,Private,Home,1,9,9.0,12,149.0,83.0,53.0,191.2,0
+426,33,Female,Kidney Disease,Urgent,Private,Home,4,9,5.0,19,152.0,73.0,94.0,132.9,0
+427,84,Female,Diabetes,Emergency,Private,Home,0,10,5.0,19,131.0,65.0,98.0,96.2,0
+428,79,Female,Heart Failure,Emergency,Private,Home,2,11,1.0,9,93.0,96.0,72.0,,0
+429,19,Male,Heart Failure,Urgent,Medicaid,Home,1,11,19.0,13,131.0,91.0,121.0,103.2,0
+430,73,Male,Diabetes,Urgent,Private,Home,1,11,1.0,2,141.0,57.0,85.0,105.6,0
+431,24,Female,,Emergency,Medicaid,Skilled Nursing Facility,1,1,15.0,18,128.0,62.0,49.0,145.9,1
+432,74,Female,,Emergency,Medicare,Skilled Nursing Facility,1,9,10.0,1,127.0,87.0,88.0,131.2,0
+433,81,Male,Pneumonia,Emergency,Medicaid,Home,0,8,3.0,7,113.0,77.0,71.0,160.2,0
+434,28,Female,Pneumonia,Urgent,Medicaid,Home,2,2,22.0,14,112.0,98.0,99.0,134.8,0
+435,51,Male,Stroke,Urgent,Medicare,Home Health Care,2,2,18.0,19,163.0,87.0,90.0,85.4,0
+436,27,Female,Diabetes,Urgent,Medicare,Home Health Care,0,11,20.0,4,164.0,84.0,73.0,100.0,0
+437,61,Male,Diabetes,Urgent,Medicare,Home,1,10,23.0,13,130.0,68.0,105.0,97.5,0
+438,89,Female,Stroke,Emergency,Private,Home,2,4,22.0,4,135.0,,96.0,112.5,0
+439,24,Male,Diabetes,Emergency,Medicare,Home,3,1,17.0,1,112.0,65.0,70.0,191.8,1
+440,48,Male,Pneumonia,Emergency,Private,Home Health Care,0,4,13.0,9,142.0,96.0,80.0,198.2,0
+441,92,Female,Kidney Disease,Urgent,Medicare,Home,1,1,17.0,11,162.0,85.0,90.0,153.5,0
+442,41,Male,Heart Failure,Emergency,Private,Home,2,8,11.0,6,102.0,70.0,77.0,124.8,1
+443,28,Male,COPD,Emergency,Medicare,Home,1,5,5.0,19,138.0,90.0,77.0,65.5,0
+444,55,Female,Heart Failure,Emergency,Private,Home,4,1,10.0,12,140.0,107.0,83.0,128.8,0
+445,57,Male,Heart Failure,Emergency,Medicaid,Home,3,11,12.0,9,139.0,77.0,66.0,88.4,1
+446,69,Male,COPD,Urgent,Medicare,Home Health Care,0,10,2.0,10,160.0,87.0,49.0,185.2,0
+447,42,Male,Diabetes,Emergency,Medicare,Home,1,10,21.0,9,167.0,75.0,86.0,60.0,0
+448,91,Female,Kidney Disease,Emergency,Medicare,Home,4,11,22.0,3,,81.0,52.0,135.4,1
+449,58,Female,Stroke,Urgent,Medicare,Home,1,1,11.0,12,142.0,62.0,67.0,85.0,0
+450,40,Female,Kidney Disease,Emergency,Private,Skilled Nursing Facility,1,9,12.0,15,132.0,80.0,55.0,119.6,1
+451,91,Male,Diabetes,Emergency,Private,Home,1,9,21.0,9,119.0,81.0,57.0,146.6,0
+452,89,Male,Diabetes,Emergency,Private,Home,1,9,11.0,9,135.0,102.0,88.0,160.9,1
+453,56,Male,Diabetes,Urgent,Medicaid,Home,1,3,17.0,18,142.0,58.0,79.0,117.6,0
+454,19,Female,Heart Failure,Emergency,Medicare,Skilled Nursing Facility,2,5,13.0,12,134.0,77.0,78.0,150.4,0
+455,63,Male,Stroke,Urgent,Private,Skilled Nursing Facility,0,11,7.0,6,114.0,95.0,62.0,93.5,0
+456,60,Male,Diabetes,Elective,Private,Skilled Nursing Facility,3,1,,1,122.0,77.0,72.0,129.8,0
+457,29,Female,Diabetes,Urgent,Medicare,Home Health Care,3,8,5.0,16,122.0,78.0,88.0,160.1,0
+458,66,Female,,Emergency,Uninsured,Home,1,9,6.0,12,115.0,70.0,81.0,,1
+459,82,Female,Diabetes,Urgent,Medicare,Home,1,9,17.0,12,136.0,69.0,94.0,98.8,0
+460,26,Male,Heart Failure,Emergency,Private,Home,4,7,18.0,6,138.0,58.0,96.0,108.8,0
+461,73,Female,Heart Failure,Emergency,Uninsured,Home Health Care,2,9,23.0,4,,72.0,78.0,160.6,1
+462,28,Female,Pneumonia,Emergency,Private,Home Health Care,2,11,18.0,10,115.0,68.0,54.0,,1
+463,75,Male,Kidney Disease,Emergency,Medicare,Home,1,9,1.0,15,120.0,81.0,71.0,82.2,0
+464,50,Female,Heart Failure,Emergency,Medicaid,Skilled Nursing Facility,1,2,21.0,6,158.0,71.0,81.0,144.1,1
+465,18,Female,Stroke,Emergency,Medicare,Home,1,3,10.0,11,127.0,74.0,70.0,102.4,0
+466,92,Male,Kidney Disease,Emergency,Private,Home,0,4,1.0,19,131.0,75.0,66.0,,0
+467,30,Female,Kidney Disease,Emergency,Medicare,Home,3,4,14.0,5,127.0,79.0,83.0,174.0,0
+468,63,Female,Diabetes,Urgent,Private,Skilled Nursing Facility,2,4,5.0,5,150.0,74.0,118.0,76.0,0
+469,31,Female,Heart Failure,Elective,Private,Skilled Nursing Facility,3,3,10.0,5,151.0,67.0,75.0,112.0,1
+470,89,Female,Kidney Disease,Emergency,Medicare,Home,5,8,12.0,18,150.0,81.0,82.0,95.2,0
+471,74,Female,Diabetes,Urgent,Medicare,Transferred,1,2,2.0,11,130.0,93.0,62.0,108.1,0
+472,79,Female,Pneumonia,Emergency,Medicaid,Skilled Nursing Facility,0,9,21.0,18,114.0,82.0,101.0,84.6,1
+473,51,Male,Kidney Disease,Emergency,Medicare,Skilled Nursing Facility,2,8,13.0,19,165.0,73.0,95.0,148.6,1
+474,53,Female,Heart Failure,Emergency,Medicare,Skilled Nursing Facility,3,11,24.0,8,145.0,79.0,94.0,124.4,1
+475,66,Female,Kidney Disease,Emergency,Medicare,Home,0,1,12.0,2,122.0,55.0,102.0,159.3,0
+476,78,Female,Stroke,Emergency,Medicare,Skilled Nursing Facility,1,4,15.0,6,156.0,78.0,76.0,95.6,1
+477,83,Male,Pneumonia,Emergency,Medicaid,Home Health Care,2,10,20.0,11,120.0,75.0,77.0,205.3,1
+478,19,Male,COPD,Emergency,Medicaid,Home Health Care,2,6,6.0,8,155.0,69.0,108.0,60.0,0
+479,69,Female,Kidney Disease,Emergency,Medicare,Home,0,7,22.0,1,157.0,71.0,91.0,60.0,0
+480,26,Female,COPD,Emergency,Medicaid,Home Health Care,3,1,5.0,19,113.0,75.0,49.0,190.1,1
+481,40,Female,Kidney Disease,Emergency,Medicare,Transferred,2,9,24.0,6,140.0,92.0,89.0,139.0,0
+482,81,Male,Kidney Disease,Emergency,Medicare,Home,0,3,16.0,12,144.0,93.0,73.0,133.7,0
+483,37,Male,,Emergency,Private,Transferred,1,11,13.0,18,,69.0,95.0,137.3,0
+484,79,Female,Diabetes,Emergency,Medicare,Home,1,5,6.0,11,117.0,74.0,88.0,142.8,1
+485,53,Male,Heart Failure,Emergency,Medicaid,Home,2,3,14.0,14,156.0,74.0,56.0,132.0,0
+486,35,Female,Diabetes,Emergency,Private,Home,2,7,14.0,1,130.0,90.0,86.0,81.4,1
+487,43,Male,COPD,Emergency,Medicaid,Skilled Nursing Facility,1,6,24.0,14,108.0,82.0,85.0,152.7,1
+488,58,Male,COPD,Elective,Medicaid,Home Health Care,3,6,21.0,17,128.0,81.0,87.0,,1
+489,76,Female,Pneumonia,Emergency,Medicare,Home,1,11,12.0,18,130.0,86.0,91.0,177.1,0
+490,64,Male,Diabetes,Emergency,Medicare,Home Health Care,3,5,10.0,2,111.0,73.0,104.0,190.6,0
+491,89,Female,Kidney Disease,Emergency,Medicare,Home,0,5,10.0,5,136.0,96.0,88.0,133.2,0
+492,84,Female,Stroke,Elective,Private,Home,0,7,,1,147.0,80.0,82.0,70.9,0
+493,76,Female,Diabetes,Urgent,Private,Skilled Nursing Facility,3,2,1.0,18,134.0,70.0,99.0,190.9,1
+494,64,Male,Pneumonia,Urgent,Medicare,Home Health Care,2,10,1.0,6,120.0,77.0,116.0,79.3,0
+495,40,Male,Pneumonia,Elective,Medicare,Skilled Nursing Facility,2,3,19.0,11,127.0,95.0,96.0,133.5,0
+496,49,Female,COPD,Emergency,Medicare,Home Health Care,0,3,7.0,10,130.0,75.0,85.0,109.7,0
+497,27,Male,Heart Failure,Elective,Medicaid,Transferred,0,1,10.0,14,134.0,91.0,88.0,102.8,1
+498,46,Male,Kidney Disease,Emergency,Medicaid,Home,0,4,17.0,18,150.0,72.0,86.0,150.6,0
+499,89,Male,Stroke,Urgent,Private,Home,1,7,,7,135.0,71.0,82.0,129.8,1
+500,50,Female,Pneumonia,Emergency,Private,Home,1,8,9.0,16,105.0,88.0,114.0,140.5,1
+501,26,Male,Stroke,Emergency,Medicare,Home Health Care,0,10,19.0,6,120.0,70.0,71.0,87.4,0
+502,68,Male,Stroke,Elective,Private,Home Health Care,1,9,4.0,4,133.0,90.0,99.0,113.0,0
+503,92,Female,Diabetes,Emergency,Medicaid,Home Health Care,2,4,12.0,3,150.0,84.0,80.0,89.2,0
+504,84,Male,Pneumonia,Elective,Medicare,Home,0,10,3.0,8,153.0,70.0,60.0,112.0,0
+505,39,Female,COPD,Emergency,Private,Home,2,3,13.0,11,162.0,79.0,79.0,115.2,1
+506,52,Female,Stroke,Urgent,Medicare,Home Health Care,2,3,3.0,15,132.0,73.0,74.0,193.8,0
+507,58,Female,Heart Failure,Elective,Private,Transferred,2,4,23.0,17,144.0,84.0,91.0,109.6,1
+508,37,Female,Diabetes,Emergency,Private,Home,5,6,16.0,11,104.0,103.0,83.0,60.0,0
+509,38,Male,Kidney Disease,Elective,Private,Home,3,3,6.0,8,138.0,76.0,67.0,,0
+510,36,Male,Diabetes,Urgent,Medicaid,Home,3,10,15.0,4,111.0,86.0,104.0,138.0,0
+511,94,Male,Kidney Disease,Urgent,Medicare,Home,3,3,9.0,18,129.0,80.0,98.0,114.8,0
+512,75,Male,Diabetes,Emergency,Private,Home,3,5,13.0,8,185.0,80.0,106.0,102.5,1
+513,82,Female,Stroke,Emergency,Private,Home,1,7,5.0,15,135.0,78.0,86.0,82.1,0
+514,80,Female,Stroke,Urgent,Medicaid,Home Health Care,1,5,13.0,12,114.0,70.0,81.0,197.5,0
+515,91,Female,Diabetes,Emergency,Private,Home,4,5,3.0,18,137.0,84.0,93.0,122.1,1
+516,26,Female,Kidney Disease,Emergency,Medicare,Home,1,11,4.0,19,121.0,77.0,73.0,60.0,0
+517,85,Female,Diabetes,Emergency,Medicaid,Home,2,5,15.0,14,,69.0,84.0,133.1,1
+518,23,Male,Pneumonia,Elective,Private,Skilled Nursing Facility,3,2,13.0,13,168.0,,79.0,168.2,0
+519,54,Male,Pneumonia,Emergency,Medicare,Home,0,9,8.0,3,149.0,81.0,60.0,126.3,0
+520,63,Female,Kidney Disease,Urgent,Medicaid,Home,0,8,2.0,1,136.0,77.0,84.0,83.9,0
+521,45,Male,Heart Failure,Elective,Uninsured,Home,3,3,11.0,11,123.0,96.0,75.0,,0
+522,29,Female,Diabetes,Emergency,Private,Home Health Care,1,10,23.0,14,124.0,58.0,78.0,83.3,0
+523,32,Female,Pneumonia,Emergency,Private,Skilled Nursing Facility,1,5,17.0,15,158.0,95.0,87.0,,0
+524,81,Female,COPD,Urgent,Medicare,Home,1,2,2.0,5,136.0,69.0,101.0,117.1,0
+525,42,Female,COPD,Emergency,Uninsured,Home,3,2,23.0,10,75.0,83.0,69.0,60.0,0
+526,41,Female,,Urgent,Medicare,Home,3,8,11.0,17,174.0,73.0,77.0,135.4,1
+527,89,Female,Diabetes,Urgent,Medicaid,Home Health Care,2,3,14.0,2,133.0,69.0,71.0,125.6,1
+528,29,Female,Kidney Disease,Urgent,Medicaid,Skilled Nursing Facility,1,6,1.0,8,136.0,,70.0,102.0,0
+529,88,Male,Heart Failure,Emergency,Private,Home,1,9,8.0,18,150.0,102.0,73.0,79.2,0
+530,88,Male,Diabetes,Urgent,Private,Home,1,10,19.0,4,,77.0,79.0,,0
+531,64,Female,Stroke,Urgent,Private,Skilled Nursing Facility,1,6,8.0,7,143.0,84.0,91.0,163.5,1
+532,30,Female,Heart Failure,Emergency,Medicaid,Home Health Care,1,10,4.0,9,122.0,81.0,87.0,129.9,0
+533,30,Female,Kidney Disease,Urgent,Medicare,Home,0,4,3.0,14,,101.0,66.0,139.1,0
+534,39,Female,Diabetes,Elective,Medicaid,Home,3,10,23.0,5,135.0,,101.0,129.8,0
+535,62,Female,Kidney Disease,Urgent,Medicaid,Home,0,3,20.0,16,156.0,85.0,96.0,133.1,0
+536,29,Female,Kidney Disease,Emergency,Medicare,Skilled Nursing Facility,0,1,2.0,5,118.0,71.0,68.0,101.3,0
+537,53,Female,Stroke,Emergency,Medicaid,Home Health Care,3,8,23.0,7,117.0,52.0,100.0,111.8,0
+538,26,Male,Heart Failure,Emergency,Private,Home Health Care,2,9,20.0,11,152.0,,87.0,166.6,0
+539,59,Male,COPD,Emergency,Private,Skilled Nursing Facility,1,11,,1,122.0,102.0,80.0,176.6,1
+540,19,Male,Kidney Disease,Emergency,Private,Home,2,11,16.0,15,123.0,72.0,87.0,71.1,0
+541,72,Male,Diabetes,Elective,Medicare,Home,3,2,7.0,13,123.0,89.0,82.0,111.7,0
+542,22,Female,Diabetes,Emergency,Medicaid,Home,0,7,6.0,16,129.0,94.0,90.0,153.6,0
+543,33,Male,Heart Failure,Urgent,Medicare,Skilled Nursing Facility,2,8,18.0,6,102.0,80.0,85.0,195.3,0
+544,31,Male,Stroke,Emergency,Medicare,Home Health Care,1,7,5.0,8,120.0,81.0,77.0,191.3,1
+545,81,Male,Pneumonia,Emergency,Medicaid,Home,1,1,9.0,18,134.0,59.0,52.0,88.2,0
+546,22,Female,Pneumonia,Emergency,Medicare,Home,1,1,9.0,2,134.0,71.0,90.0,171.0,0
+547,51,Female,Kidney Disease,Emergency,Medicare,Home Health Care,1,8,4.0,10,151.0,91.0,76.0,122.3,0
+548,63,Male,COPD,Urgent,Private,Home Health Care,0,10,20.0,10,163.0,81.0,94.0,161.8,1
+549,57,Female,COPD,Elective,Medicare,Home Health Care,0,2,17.0,9,157.0,84.0,89.0,151.5,0
+550,70,Female,COPD,Elective,Medicare,Home,3,1,21.0,9,146.0,82.0,77.0,69.4,0
+551,79,Female,Pneumonia,Emergency,Medicare,Skilled Nursing Facility,1,5,13.0,15,127.0,106.0,97.0,,0
+552,48,Female,Heart Failure,Urgent,Medicaid,Skilled Nursing Facility,1,4,5.0,4,119.0,75.0,85.0,160.2,0
+553,81,Female,Stroke,Emergency,Medicare,Home Health Care,4,11,7.0,17,130.0,99.0,84.0,,1
+554,42,Male,Kidney Disease,Elective,Medicaid,Home Health Care,0,11,9.0,18,141.0,82.0,80.0,110.1,0
+555,93,Female,Diabetes,Emergency,Medicaid,Skilled Nursing Facility,0,7,23.0,4,145.0,,107.0,60.0,1
+556,56,Male,COPD,Emergency,Medicare,Skilled Nursing Facility,3,11,6.0,19,141.0,65.0,71.0,147.3,1
+557,74,Male,Heart Failure,Emergency,Private,Home Health Care,3,3,17.0,5,128.0,,77.0,128.3,1
+558,85,Female,Stroke,Emergency,Medicare,Home,0,11,3.0,1,144.0,75.0,63.0,83.1,0
+559,79,Female,Stroke,Emergency,Medicaid,Home,0,5,23.0,8,153.0,82.0,93.0,107.0,1
+560,83,Female,Stroke,Elective,Medicare,Skilled Nursing Facility,2,6,16.0,16,146.0,95.0,73.0,126.2,1
+561,59,Male,Diabetes,Urgent,Medicaid,Home Health Care,1,1,11.0,17,129.0,85.0,75.0,97.7,0
+562,21,Male,Heart Failure,Elective,Medicare,Home,1,2,9.0,13,115.0,,74.0,120.1,0
+563,55,Male,Heart Failure,Emergency,Private,Home,0,3,,16,115.0,72.0,83.0,60.0,1
+564,31,Female,Heart Failure,Urgent,Medicare,Skilled Nursing Facility,2,6,6.0,5,118.0,70.0,63.0,174.0,0
+565,86,Female,Heart Failure,Emergency,Medicaid,Skilled Nursing Facility,0,3,15.0,17,135.0,80.0,48.0,120.6,0
+566,36,Female,Heart Failure,Emergency,Medicare,Transferred,1,2,21.0,13,139.0,80.0,89.0,76.0,0
+567,35,Female,Stroke,Emergency,Medicare,Home,0,7,6.0,3,105.0,78.0,50.0,60.0,0
+568,37,Male,Heart Failure,Emergency,Medicare,Skilled Nursing Facility,0,10,18.0,3,,68.0,95.0,161.2,0
+569,67,Male,Heart Failure,Urgent,Medicaid,Skilled Nursing Facility,3,1,14.0,6,134.0,94.0,105.0,142.3,0
+570,61,Male,Kidney Disease,Emergency,Medicaid,Home,3,7,19.0,2,114.0,76.0,80.0,128.4,0
+571,91,Male,Pneumonia,Emergency,Uninsured,Home,1,11,19.0,6,138.0,97.0,101.0,154.5,1
+572,50,Male,Kidney Disease,Urgent,Private,Transferred,2,5,1.0,19,124.0,80.0,82.0,154.4,0
+573,39,Male,Pneumonia,Emergency,Uninsured,Home,3,3,1.0,5,117.0,88.0,106.0,127.8,0
+574,21,Male,Stroke,Elective,Medicare,Home Health Care,2,1,22.0,13,131.0,87.0,75.0,109.8,0
+575,18,Female,Pneumonia,Emergency,Private,Home Health Care,3,11,4.0,19,137.0,70.0,47.0,103.3,0
+576,46,Male,COPD,Urgent,Medicaid,Home Health Care,2,5,,5,115.0,84.0,81.0,136.8,0
+577,89,Male,Pneumonia,Urgent,Medicaid,Home,0,2,19.0,14,126.0,103.0,108.0,175.9,0
+578,58,Male,COPD,Urgent,Uninsured,Home Health Care,0,10,13.0,9,138.0,83.0,90.0,115.9,1
+579,86,Male,Diabetes,Urgent,Private,Home,1,9,1.0,6,116.0,91.0,74.0,179.1,0
+580,25,Female,COPD,Elective,Private,Skilled Nursing Facility,1,8,1.0,19,100.0,,87.0,134.9,1
+581,25,Male,Heart Failure,Urgent,Private,Home,1,1,17.0,13,,84.0,97.0,135.2,0
+582,82,Male,Kidney Disease,Emergency,Medicare,Home Health Care,4,1,22.0,9,122.0,82.0,81.0,216.2,0
+583,26,Male,Diabetes,Emergency,Private,Skilled Nursing Facility,0,3,9.0,16,106.0,87.0,121.0,,1
+584,22,Female,Heart Failure,Urgent,Medicaid,Home,0,2,14.0,18,124.0,,74.0,187.1,0
+585,49,Female,Diabetes,Emergency,Private,Home,1,6,23.0,15,160.0,64.0,97.0,88.1,0
+586,89,Male,Kidney Disease,Emergency,Private,Skilled Nursing Facility,1,5,20.0,17,105.0,83.0,93.0,207.7,0
+587,71,Male,Diabetes,Emergency,Medicare,Home,4,9,13.0,7,125.0,78.0,72.0,116.7,1
+588,25,Male,,Emergency,Medicare,Home,0,2,16.0,7,168.0,75.0,76.0,110.9,0
+589,82,Male,Kidney Disease,Emergency,Medicare,Home,2,9,24.0,5,137.0,96.0,97.0,60.0,0
+590,82,Female,Heart Failure,Urgent,Medicaid,Transferred,2,11,20.0,14,123.0,71.0,84.0,133.1,1
+591,79,Female,Kidney Disease,Urgent,Medicare,Home Health Care,1,2,10.0,16,127.0,63.0,87.0,76.7,1
+592,87,Female,Diabetes,Urgent,Private,Home,4,8,17.0,13,138.0,90.0,57.0,136.3,1
+593,36,Male,Heart Failure,Emergency,Medicaid,Transferred,0,6,8.0,12,161.0,63.0,92.0,73.5,0
+594,93,Male,Pneumonia,Emergency,Private,Home,2,2,23.0,15,120.0,57.0,86.0,191.9,1
+595,42,Male,Stroke,Urgent,Medicare,Home,0,4,3.0,4,116.0,91.0,81.0,142.1,0
+596,79,Male,Diabetes,Emergency,Medicaid,Home,2,9,6.0,7,105.0,82.0,87.0,211.2,0
+597,62,Female,COPD,Urgent,Medicare,Home,0,10,9.0,14,132.0,86.0,76.0,79.1,1
+598,78,Male,Diabetes,Emergency,Private,Home,0,5,5.0,1,105.0,75.0,73.0,182.0,0
+599,66,Male,COPD,Elective,Medicare,Home Health Care,2,2,15.0,18,122.0,63.0,78.0,60.0,0
+600,67,Female,Pneumonia,Emergency,Medicare,Home,2,3,18.0,4,114.0,66.0,75.0,128.3,1
+601,65,Male,Pneumonia,Urgent,Medicare,Home Health Care,1,10,22.0,15,149.0,77.0,115.0,94.7,1
+602,77,Male,Pneumonia,Urgent,Private,Home,1,7,,12,121.0,65.0,96.0,102.1,0
+603,74,Male,Heart Failure,Emergency,Medicare,Home,2,5,15.0,17,137.0,84.0,67.0,99.3,0
+604,28,Male,Pneumonia,Urgent,Medicaid,Home,3,1,15.0,15,101.0,74.0,113.0,83.4,1
+605,81,Male,Pneumonia,Emergency,Private,Home Health Care,1,9,1.0,10,132.0,82.0,76.0,69.6,0
+606,59,Male,Pneumonia,Urgent,Private,Home Health Care,0,6,18.0,15,,82.0,82.0,102.3,1
+607,42,Male,Heart Failure,Urgent,Medicare,Home,0,6,1.0,7,122.0,85.0,95.0,124.6,0
+608,57,Male,COPD,Emergency,Medicare,Home,0,10,14.0,12,170.0,86.0,52.0,,0
+609,92,Male,Diabetes,Emergency,Medicare,Home,3,7,24.0,18,147.0,76.0,78.0,131.8,1
+610,84,Female,Heart Failure,Urgent,Medicare,Skilled Nursing Facility,2,11,19.0,2,128.0,82.0,73.0,166.7,1
+611,82,Male,Diabetes,Emergency,Private,Home,2,7,13.0,7,188.0,83.0,85.0,60.9,0
+612,53,Female,COPD,Elective,Medicare,Skilled Nursing Facility,2,4,8.0,1,114.0,51.0,88.0,102.7,0
+613,78,Female,Kidney Disease,Urgent,Medicare,Home,2,11,21.0,11,151.0,88.0,81.0,148.4,1
+614,47,Male,Diabetes,Urgent,Medicare,Home,4,8,21.0,15,102.0,82.0,80.0,133.7,1
+615,70,Female,Kidney Disease,Emergency,Medicaid,Home Health Care,1,9,9.0,1,126.0,87.0,98.0,85.6,0
+616,67,Male,COPD,Urgent,Medicare,Home,3,3,3.0,11,106.0,65.0,87.0,157.4,0
+617,37,Male,Kidney Disease,Elective,Private,Home,2,8,14.0,8,135.0,76.0,83.0,98.7,1
+618,38,Male,COPD,Emergency,Medicare,Transferred,0,7,16.0,15,131.0,67.0,84.0,88.9,0
+619,22,Male,COPD,Emergency,Uninsured,Home,1,2,23.0,5,124.0,89.0,110.0,139.5,0
+620,28,Male,Pneumonia,Emergency,Private,Home,0,3,22.0,4,150.0,63.0,85.0,120.2,0
+621,51,Male,Stroke,Emergency,Medicare,Home,0,11,6.0,2,120.0,69.0,74.0,99.1,0
+622,54,Female,COPD,Urgent,Medicare,Home,1,7,7.0,8,136.0,86.0,53.0,97.7,0
+623,30,Male,COPD,Emergency,Medicare,Skilled Nursing Facility,2,9,24.0,10,145.0,72.0,60.0,77.2,1
+624,50,Female,,Urgent,Medicare,Home,0,2,8.0,18,103.0,69.0,75.0,104.2,0
+625,64,Female,,Emergency,Medicare,Transferred,0,3,12.0,9,117.0,91.0,80.0,164.0,0
+626,35,Female,Heart Failure,Emergency,Private,Home Health Care,1,11,8.0,4,131.0,91.0,74.0,129.8,1
+627,44,Male,COPD,Emergency,Medicaid,Transferred,2,5,10.0,14,141.0,89.0,87.0,158.3,0
+628,46,Female,COPD,Elective,Medicare,Skilled Nursing Facility,1,10,14.0,2,156.0,90.0,73.0,140.6,0
+629,56,Female,Stroke,Urgent,Medicaid,Skilled Nursing Facility,2,9,8.0,7,126.0,77.0,68.0,95.5,0
+630,46,Female,COPD,Emergency,Medicare,Home Health Care,3,4,10.0,13,124.0,78.0,91.0,60.0,1
+631,74,Male,COPD,Urgent,Uninsured,Home,1,11,9.0,5,114.0,72.0,103.0,82.9,0
+632,43,Female,Stroke,Emergency,Medicare,Home,0,9,3.0,12,136.0,82.0,65.0,93.2,0
+633,51,Female,COPD,Emergency,Private,Home Health Care,0,2,19.0,9,125.0,74.0,86.0,90.1,1
+634,47,Male,Heart Failure,Emergency,Private,Home,2,2,22.0,19,125.0,75.0,53.0,159.2,1
+635,32,Male,Heart Failure,Elective,Medicare,Home Health Care,0,2,12.0,6,128.0,87.0,60.0,158.8,0
+636,70,Male,Heart Failure,Urgent,Medicare,Home,2,9,5.0,18,140.0,94.0,73.0,208.5,0
+637,36,Female,Heart Failure,Urgent,Medicare,Skilled Nursing Facility,4,2,,12,120.0,85.0,99.0,89.5,0
+638,40,Male,COPD,Emergency,Private,Home,0,4,13.0,15,116.0,102.0,70.0,183.9,1
+639,79,Male,Kidney Disease,Emergency,Medicaid,Transferred,1,5,14.0,4,138.0,72.0,70.0,183.7,0
+640,91,Female,Pneumonia,Urgent,Private,Home,1,2,15.0,1,76.0,58.0,83.0,110.7,0
+641,69,Male,Heart Failure,Emergency,Private,Home,5,4,18.0,14,119.0,89.0,83.0,138.9,1
+642,88,Male,COPD,Elective,Private,Skilled Nursing Facility,1,8,1.0,10,109.0,71.0,70.0,169.6,1
+643,83,Female,Heart Failure,Urgent,Medicaid,Skilled Nursing Facility,2,11,3.0,6,152.0,77.0,112.0,117.6,0
+644,55,Female,Stroke,Emergency,Medicaid,Home Health Care,0,6,3.0,18,122.0,59.0,78.0,114.5,0
+645,77,Female,Heart Failure,Urgent,Private,Transferred,1,9,4.0,7,120.0,69.0,84.0,94.9,0
+646,43,Female,Pneumonia,Elective,Medicare,Home,1,6,24.0,9,129.0,62.0,76.0,60.0,0
+647,53,Male,Diabetes,Emergency,Private,Skilled Nursing Facility,2,6,18.0,14,119.0,75.0,89.0,122.8,1
+648,59,Female,Pneumonia,Urgent,Medicare,Home,0,6,16.0,19,123.0,75.0,101.0,91.6,0
+649,91,Female,Diabetes,Elective,Medicare,Home,3,11,17.0,18,132.0,81.0,107.0,77.0,1
+650,83,Male,Kidney Disease,Emergency,Private,Home,5,1,1.0,13,122.0,95.0,71.0,136.9,1
+651,55,Male,Diabetes,Elective,Medicare,Home,2,6,6.0,3,122.0,88.0,99.0,61.9,0
+652,68,Male,Stroke,Emergency,Medicare,Home Health Care,6,1,20.0,3,112.0,61.0,90.0,152.2,0
+653,33,Male,COPD,Urgent,Medicare,Home Health Care,0,10,12.0,14,109.0,87.0,97.0,139.3,1
+654,79,Male,Kidney Disease,Urgent,Medicaid,Home,2,7,13.0,10,131.0,81.0,81.0,104.0,0
+655,60,Male,Kidney Disease,Urgent,Private,Transferred,2,1,19.0,3,136.0,79.0,79.0,117.5,0
+656,59,Female,Stroke,Emergency,Medicare,Home,2,7,2.0,14,104.0,80.0,96.0,72.4,1
+657,77,Male,Diabetes,Urgent,Medicare,Home,3,5,20.0,18,144.0,82.0,96.0,150.0,0
+658,66,Female,Diabetes,Emergency,Medicaid,Home Health Care,1,1,17.0,2,144.0,72.0,105.0,,0
+659,23,Female,Diabetes,Emergency,Uninsured,Home,0,11,10.0,16,148.0,78.0,85.0,130.5,0
+660,40,Female,Diabetes,Emergency,Medicare,Home,1,5,12.0,7,135.0,94.0,80.0,140.1,0
+661,31,Female,Pneumonia,Urgent,Uninsured,Home Health Care,2,1,2.0,8,141.0,72.0,45.0,94.3,0
+662,74,Male,Stroke,Emergency,Private,Home,4,7,5.0,14,169.0,68.0,58.0,60.0,0
+663,20,Female,Stroke,Emergency,Medicare,Home,0,5,6.0,5,125.0,79.0,76.0,158.3,0
+664,33,Male,COPD,Elective,Private,Home Health Care,0,8,22.0,3,111.0,66.0,65.0,147.5,0
+665,64,Female,Pneumonia,Emergency,Private,Home,3,2,3.0,19,102.0,59.0,94.0,98.6,1
+666,71,Male,Kidney Disease,Emergency,Medicaid,Skilled Nursing Facility,0,10,7.0,7,162.0,76.0,62.0,136.4,1
+667,56,Male,Stroke,Emergency,Medicare,Skilled Nursing Facility,2,5,4.0,4,162.0,97.0,74.0,170.3,1
+668,84,Female,Heart Failure,Emergency,Private,Home,1,5,7.0,14,113.0,80.0,75.0,165.5,0
+669,88,Male,COPD,Urgent,Private,Home,0,9,1.0,5,117.0,82.0,100.0,97.4,0
+670,28,Female,Kidney Disease,Emergency,Private,Home,1,7,7.0,15,124.0,54.0,73.0,60.4,0
+671,91,Male,Diabetes,Emergency,Uninsured,Home Health Care,2,1,18.0,2,152.0,85.0,89.0,67.3,0
+672,65,Male,COPD,Elective,Medicaid,Home,1,7,19.0,10,107.0,81.0,85.0,107.5,0
+673,66,Female,Stroke,Urgent,Private,Transferred,0,8,10.0,8,95.0,72.0,96.0,178.5,0
+674,25,Female,,Urgent,Private,Home,3,4,17.0,19,169.0,82.0,95.0,90.9,0
+675,65,Male,Stroke,Elective,Medicare,Home Health Care,3,2,15.0,10,136.0,82.0,81.0,96.1,0
+676,73,Male,Kidney Disease,Elective,Medicare,Home,1,1,22.0,18,,67.0,57.0,95.3,0
+677,62,Male,Diabetes,Emergency,Medicare,Home,2,10,20.0,5,126.0,84.0,79.0,98.7,0
+678,24,Female,Diabetes,Urgent,Private,Home,3,1,6.0,9,138.0,,82.0,119.6,0
+679,58,Female,COPD,Urgent,Medicare,Home Health Care,2,7,15.0,16,103.0,77.0,86.0,68.8,0
+680,90,Male,COPD,Emergency,Private,Transferred,1,10,19.0,4,115.0,70.0,71.0,163.4,0
+681,73,Male,COPD,Emergency,Medicare,Home,6,4,8.0,18,132.0,78.0,99.0,114.2,1
+682,28,Male,Pneumonia,Emergency,Medicare,Home,0,3,14.0,15,89.0,,82.0,219.2,1
+683,91,Male,Diabetes,Urgent,Medicaid,Home,3,8,10.0,13,125.0,65.0,68.0,73.1,1
+684,91,Female,Kidney Disease,Urgent,Medicare,Home,1,7,8.0,5,123.0,87.0,75.0,183.6,0
+685,31,Female,Diabetes,Urgent,Private,Skilled Nursing Facility,1,1,5.0,16,125.0,72.0,111.0,175.7,0
+686,79,Male,Diabetes,Emergency,Medicare,Skilled Nursing Facility,1,7,1.0,17,120.0,83.0,92.0,103.5,0
+687,49,Female,Heart Failure,Emergency,Private,Skilled Nursing Facility,1,1,18.0,6,112.0,73.0,98.0,104.2,0
+688,63,Male,Heart Failure,Emergency,Medicare,Home,1,5,20.0,12,97.0,73.0,66.0,83.1,0
+689,52,Male,Kidney Disease,Emergency,Uninsured,Home,1,4,16.0,2,133.0,98.0,72.0,83.6,0
+690,78,Male,COPD,Elective,Medicaid,Home Health Care,2,10,6.0,8,125.0,63.0,72.0,120.0,1
+691,94,Male,Diabetes,Elective,Medicare,Home,1,11,1.0,3,105.0,86.0,85.0,120.8,0
+692,79,Male,Kidney Disease,Elective,Medicare,Home Health Care,0,8,16.0,11,131.0,101.0,79.0,60.0,0
+693,89,Female,COPD,Elective,Medicare,Home,1,9,5.0,11,125.0,88.0,75.0,211.7,1
+694,90,Female,Heart Failure,Elective,Medicaid,Home,3,1,14.0,11,122.0,64.0,77.0,109.6,0
+695,24,Male,Diabetes,Emergency,Private,Skilled Nursing Facility,1,1,24.0,13,91.0,65.0,70.0,122.6,0
+696,37,Female,Heart Failure,Emergency,Medicare,Home,0,9,1.0,18,142.0,71.0,79.0,95.0,1
+697,73,Female,Pneumonia,Emergency,Medicare,Transferred,3,5,14.0,4,108.0,82.0,99.0,109.3,0
+698,63,Female,Diabetes,Emergency,Medicaid,Home,0,6,24.0,5,131.0,83.0,59.0,105.7,1
+699,21,Female,Heart Failure,Emergency,Medicaid,Home,1,8,9.0,5,115.0,65.0,87.0,119.9,0
+700,25,Male,Heart Failure,Emergency,Private,Home,2,4,20.0,18,123.0,70.0,103.0,119.4,1
+701,58,Female,Pneumonia,Elective,Medicaid,Home,0,8,20.0,2,151.0,70.0,79.0,152.2,0
+702,65,Female,Heart Failure,Emergency,Private,Home,1,8,12.0,1,140.0,78.0,74.0,129.1,0
+703,30,Female,Kidney Disease,Elective,Uninsured,Home,0,3,8.0,4,150.0,104.0,96.0,148.2,0
+704,31,Male,Heart Failure,Urgent,Medicare,Home Health Care,2,8,17.0,15,136.0,69.0,67.0,119.6,1
+705,27,Male,Pneumonia,Urgent,Medicare,Skilled Nursing Facility,1,2,15.0,12,137.0,68.0,82.0,129.3,1
+706,61,Male,COPD,Urgent,Medicare,Home,2,4,12.0,18,98.0,66.0,66.0,110.3,0
+707,18,Male,COPD,Emergency,Medicaid,Home,0,9,5.0,4,124.0,88.0,54.0,160.1,0
+708,62,Male,Heart Failure,Urgent,Medicare,Home,2,11,18.0,8,126.0,80.0,80.0,,1
+709,54,Male,Kidney Disease,Emergency,Private,Skilled Nursing Facility,4,1,6.0,11,,69.0,63.0,113.7,0
+710,53,Female,Stroke,Elective,Medicaid,Home Health Care,1,8,4.0,2,121.0,76.0,82.0,112.5,0
+711,70,Male,Heart Failure,Emergency,Medicaid,Home,2,7,2.0,18,135.0,71.0,99.0,115.6,1
+712,58,Female,Heart Failure,Emergency,Private,Home,4,7,11.0,16,134.0,84.0,110.0,121.2,1
+713,74,Male,Stroke,Urgent,Medicare,Home,0,9,3.0,3,151.0,112.0,83.0,,0
+714,76,Female,COPD,Urgent,Private,Home,1,1,9.0,17,128.0,87.0,97.0,97.6,0
+715,88,Male,Heart Failure,Emergency,Medicare,Home,2,9,6.0,9,145.0,79.0,88.0,150.6,0
+716,79,Female,Heart Failure,Urgent,Medicaid,Transferred,1,4,12.0,7,99.0,72.0,76.0,153.1,0
+717,57,Male,Pneumonia,Emergency,Private,Home,0,2,19.0,18,101.0,64.0,53.0,191.4,0
+718,55,Male,Pneumonia,Urgent,Private,Home,3,5,11.0,10,89.0,89.0,106.0,95.9,0
+719,36,Male,Pneumonia,Emergency,Private,Home,0,1,,5,144.0,88.0,66.0,146.7,0
+720,64,Female,Stroke,Emergency,Medicare,Home Health Care,0,7,4.0,16,142.0,74.0,103.0,,0
+721,28,Male,COPD,Emergency,Private,Home,0,7,3.0,14,146.0,95.0,90.0,153.2,0
+722,89,Female,Diabetes,Emergency,Medicaid,Home,3,6,24.0,4,118.0,80.0,67.0,61.7,0
+723,83,Female,COPD,Emergency,Medicaid,Home,1,1,15.0,13,120.0,89.0,87.0,80.6,0
+724,27,Male,,Emergency,Medicare,Home Health Care,2,9,1.0,12,128.0,84.0,114.0,133.3,0
+725,78,Male,,Emergency,Medicare,Home,1,1,14.0,6,156.0,78.0,105.0,95.1,0
+726,27,Male,Heart Failure,Emergency,Medicaid,Skilled Nursing Facility,3,3,,9,160.0,69.0,74.0,89.7,0
+727,73,Male,Diabetes,Emergency,Medicare,Home,1,5,2.0,16,144.0,78.0,71.0,100.6,0
+728,24,Male,Pneumonia,Emergency,Private,Home,2,8,9.0,4,136.0,90.0,84.0,149.2,0
+729,55,Male,,Urgent,Private,Transferred,2,5,16.0,14,154.0,74.0,80.0,82.7,0
+730,68,Female,COPD,Elective,Private,Skilled Nursing Facility,1,9,15.0,16,125.0,85.0,100.0,117.8,0
+731,74,Male,,Emergency,Medicare,Home,1,11,19.0,18,,67.0,93.0,104.9,1
+732,50,Male,Pneumonia,Elective,Private,Skilled Nursing Facility,0,9,5.0,7,128.0,89.0,57.0,152.8,0
+733,88,Female,Kidney Disease,Emergency,Medicare,Home,2,1,5.0,6,112.0,84.0,89.0,153.9,0
+734,77,Female,Kidney Disease,Emergency,Medicaid,Home,0,9,13.0,18,127.0,66.0,79.0,60.0,0
+735,34,Male,Pneumonia,Urgent,Private,Skilled Nursing Facility,2,3,21.0,9,110.0,77.0,83.0,161.8,0
+736,69,Male,Heart Failure,Urgent,Medicare,Skilled Nursing Facility,1,10,18.0,11,148.0,91.0,86.0,95.6,1
+737,74,Male,COPD,Urgent,Medicare,Home,0,11,,10,140.0,65.0,100.0,129.5,1
+738,43,Female,Pneumonia,Emergency,Medicare,Home Health Care,2,1,3.0,10,156.0,67.0,97.0,82.4,0
+739,74,Female,Diabetes,Urgent,Medicaid,Home,1,2,22.0,12,101.0,79.0,71.0,134.8,0
+740,87,Male,Heart Failure,Emergency,Private,Home,3,8,24.0,9,164.0,106.0,81.0,222.1,1
+741,80,Male,Diabetes,Emergency,Medicare,Transferred,2,2,14.0,8,102.0,72.0,75.0,125.1,0
+742,76,Male,COPD,Emergency,Medicare,Home,2,11,9.0,8,108.0,86.0,57.0,101.6,1
+743,66,Female,Diabetes,Elective,Medicaid,Home Health Care,1,6,16.0,13,119.0,83.0,80.0,110.7,0
+744,38,Male,Heart Failure,Emergency,Medicare,Home Health Care,1,7,16.0,16,154.0,73.0,110.0,61.2,0
+745,79,Male,Kidney Disease,Urgent,Private,Home Health Care,2,10,23.0,11,134.0,82.0,56.0,,0
+746,46,Male,Stroke,Urgent,Private,Home,2,3,,13,126.0,75.0,82.0,,0
+747,58,Male,Heart Failure,Urgent,Private,Transferred,1,7,13.0,8,116.0,76.0,81.0,78.0,0
+748,42,Female,Stroke,Urgent,Private,Home Health Care,2,11,18.0,15,105.0,60.0,86.0,79.3,1
+749,42,Male,Heart Failure,Elective,Medicaid,Home Health Care,1,1,9.0,8,150.0,80.0,68.0,120.6,1
+750,30,Male,Stroke,Emergency,Private,Home,1,2,21.0,9,144.0,91.0,61.0,157.3,0
+751,92,Female,Stroke,Emergency,Medicare,Home,1,2,2.0,2,154.0,81.0,61.0,74.0,0
+752,29,Female,Heart Failure,Urgent,Medicare,Home,1,4,3.0,5,137.0,93.0,102.0,164.5,0
+753,24,Male,Kidney Disease,Emergency,Private,Home,3,2,19.0,15,82.0,87.0,67.0,116.3,0
+754,90,Male,Stroke,Emergency,Medicare,Home,1,2,4.0,2,108.0,79.0,75.0,82.8,0
+755,60,Female,Stroke,Emergency,Private,Home Health Care,1,10,11.0,5,138.0,72.0,114.0,101.3,0
+756,51,Male,Stroke,Emergency,Private,Skilled Nursing Facility,1,6,7.0,15,123.0,74.0,71.0,189.9,0
+757,74,Female,COPD,Emergency,Uninsured,Home,2,4,17.0,17,120.0,,87.0,64.5,0
+758,47,Female,Heart Failure,Emergency,Medicare,Home,0,5,1.0,8,110.0,77.0,98.0,90.7,0
+759,27,Female,Kidney Disease,Elective,Medicaid,Home Health Care,2,11,9.0,8,147.0,82.0,97.0,158.1,0
+760,74,Male,Pneumonia,Emergency,Private,Home,0,6,24.0,10,138.0,101.0,62.0,128.7,0
+761,31,Female,Pneumonia,Elective,Medicare,Skilled Nursing Facility,0,6,,15,139.0,86.0,71.0,88.4,0
+762,60,Female,Diabetes,Elective,Medicaid,Home,2,11,15.0,9,119.0,,87.0,158.6,0
+763,91,Male,COPD,Emergency,Private,Home,0,1,24.0,4,133.0,63.0,111.0,160.5,0
+764,90,Female,Heart Failure,Urgent,Uninsured,Home,1,6,15.0,9,,78.0,71.0,133.3,1
+765,45,Female,Pneumonia,Urgent,Private,Transferred,1,9,19.0,5,128.0,90.0,75.0,95.5,0
+766,78,Female,Heart Failure,Urgent,Medicare,Home,4,6,24.0,13,84.0,,88.0,101.7,0
+767,65,Male,Pneumonia,Emergency,Medicaid,Home Health Care,0,10,15.0,3,102.0,,91.0,131.4,1
+768,54,Male,Kidney Disease,Emergency,Medicaid,Home,2,10,20.0,12,124.0,,92.0,67.5,0
+769,28,Female,COPD,Emergency,Medicare,Home,1,4,13.0,3,173.0,89.0,69.0,173.1,0
+770,46,Male,COPD,Urgent,Medicare,Skilled Nursing Facility,0,9,20.0,19,98.0,61.0,74.0,188.0,1
+771,68,Female,Diabetes,Elective,Medicare,Home,4,3,16.0,13,108.0,99.0,85.0,110.6,0
+772,93,Female,Stroke,Urgent,Medicare,Home,0,3,9.0,3,134.0,,101.0,134.2,0
+773,18,Female,Pneumonia,Urgent,Medicaid,Home,2,11,14.0,19,162.0,90.0,78.0,167.4,0
+774,73,Male,Diabetes,Elective,Medicare,Skilled Nursing Facility,0,1,9.0,11,134.0,77.0,82.0,198.2,0
+775,83,Female,Heart Failure,Urgent,Medicaid,Home,2,4,10.0,12,143.0,,67.0,182.3,1
+776,91,Male,Heart Failure,Emergency,Medicare,Home,4,7,8.0,2,124.0,77.0,110.0,60.0,0
+777,50,Female,COPD,Elective,Private,Transferred,3,5,12.0,4,121.0,83.0,84.0,107.4,1
+778,27,Male,Stroke,Emergency,Medicare,Home Health Care,1,10,9.0,16,131.0,85.0,98.0,140.0,0
+779,38,Male,Pneumonia,Emergency,Private,Skilled Nursing Facility,5,3,16.0,9,118.0,93.0,82.0,100.2,1
+780,83,Female,Heart Failure,Emergency,Medicare,Skilled Nursing Facility,3,7,9.0,12,143.0,97.0,83.0,191.3,0
+781,85,Female,Kidney Disease,Elective,Medicaid,Home Health Care,3,2,12.0,19,101.0,84.0,59.0,185.2,0
+782,67,Female,Diabetes,Emergency,Medicare,Home,0,3,4.0,9,146.0,101.0,50.0,87.4,0
+783,27,Male,Kidney Disease,Emergency,Medicare,Home,1,2,,8,131.0,81.0,101.0,113.5,0
+784,27,Female,Diabetes,Emergency,Medicaid,Home Health Care,1,9,9.0,16,126.0,93.0,83.0,90.0,0
+785,54,Female,Pneumonia,Emergency,Private,Home Health Care,1,3,24.0,2,100.0,85.0,85.0,112.2,0
+786,63,Female,Stroke,Emergency,Private,Transferred,0,8,11.0,9,112.0,73.0,63.0,111.0,1
+787,20,Female,Diabetes,Urgent,Medicare,Home Health Care,1,4,1.0,17,152.0,82.0,68.0,158.2,0
+788,70,Male,Pneumonia,Elective,Medicare,Home,0,7,8.0,5,126.0,86.0,98.0,84.5,0
+789,59,Male,Stroke,Emergency,Private,Home,1,10,18.0,6,135.0,,108.0,60.0,0
+790,18,Female,Heart Failure,Emergency,Medicaid,Home Health Care,1,10,4.0,9,114.0,85.0,73.0,60.0,0
+791,25,Female,Heart Failure,Emergency,Medicare,Home,2,1,4.0,2,129.0,90.0,92.0,78.9,0
+792,52,Male,Pneumonia,Emergency,Private,Skilled Nursing Facility,1,9,9.0,2,105.0,80.0,85.0,93.8,0
+793,73,Male,Diabetes,Urgent,Medicaid,Home Health Care,2,11,9.0,5,132.0,45.0,80.0,127.5,0
+794,81,Female,Heart Failure,Urgent,Private,Home,4,8,12.0,18,137.0,100.0,110.0,76.8,1
+795,51,Female,COPD,Urgent,Medicare,Home Health Care,2,3,1.0,5,136.0,76.0,75.0,71.6,0
+796,40,Male,,Emergency,Medicare,Home Health Care,1,8,18.0,14,114.0,70.0,101.0,82.8,0
+797,92,Female,Diabetes,Urgent,Medicare,Skilled Nursing Facility,1,7,6.0,9,124.0,67.0,88.0,75.4,0
+798,53,Female,Diabetes,Emergency,Private,Home,1,8,,15,140.0,76.0,82.0,97.8,0
+799,42,Male,Kidney Disease,Emergency,Medicare,Home Health Care,1,5,14.0,7,126.0,73.0,103.0,,0
+800,52,Male,COPD,Elective,Private,Home,3,6,5.0,17,125.0,71.0,86.0,147.6,0
+801,18,Female,Kidney Disease,Urgent,Private,Home,0,8,12.0,8,164.0,72.0,81.0,80.4,0
+802,41,Male,COPD,Elective,Private,Home,1,6,1.0,16,113.0,86.0,103.0,105.7,0
+803,57,Male,Stroke,Elective,Medicare,Skilled Nursing Facility,1,9,17.0,16,149.0,104.0,101.0,98.2,0
+804,88,Male,Pneumonia,Urgent,Medicare,Skilled Nursing Facility,6,8,8.0,9,109.0,90.0,100.0,152.4,1
+805,74,Female,Heart Failure,Elective,Medicaid,Home,4,4,10.0,13,142.0,93.0,24.0,113.8,1
+806,78,Male,Stroke,Emergency,Medicaid,Home Health Care,6,7,4.0,3,143.0,75.0,89.0,162.0,0
+807,59,Male,COPD,Emergency,Private,Home,1,9,9.0,10,121.0,81.0,85.0,73.9,0
+808,26,Male,Heart Failure,Emergency,Medicare,Home Health Care,1,6,10.0,8,108.0,85.0,81.0,118.0,0
+809,48,Female,,Emergency,Private,Home,1,8,6.0,19,95.0,72.0,91.0,,1
+810,94,Female,Pneumonia,Emergency,Medicare,Home Health Care,3,2,24.0,18,119.0,75.0,86.0,71.0,1
+811,21,Male,Heart Failure,Emergency,Medicare,Home,0,5,7.0,15,139.0,90.0,92.0,117.3,0
+812,85,Male,Diabetes,Urgent,Medicare,Home Health Care,4,8,5.0,19,111.0,93.0,78.0,189.3,1
+813,70,Male,Heart Failure,Urgent,Private,Home,4,10,14.0,19,132.0,81.0,104.0,85.9,0
+814,39,Female,COPD,Urgent,Medicare,Home Health Care,0,8,8.0,15,103.0,66.0,94.0,114.9,0
+815,77,Female,Diabetes,Emergency,Medicare,Home Health Care,1,8,11.0,12,126.0,76.0,90.0,67.5,0
+816,82,Male,COPD,Urgent,Private,Home,2,4,18.0,4,109.0,63.0,89.0,61.6,0
+817,21,Male,Diabetes,Emergency,Medicaid,Home,0,8,2.0,16,129.0,81.0,99.0,88.5,0
+818,26,Female,,Emergency,Medicare,Skilled Nursing Facility,2,4,13.0,4,121.0,83.0,97.0,102.0,0
+819,69,Female,Pneumonia,Emergency,Medicare,Home Health Care,1,1,1.0,4,109.0,77.0,80.0,103.8,0
+820,94,Male,Diabetes,Emergency,Medicaid,Home,3,3,2.0,17,118.0,83.0,97.0,111.0,0
+821,19,Male,Pneumonia,Emergency,Medicare,Home,1,7,3.0,3,113.0,85.0,85.0,60.0,0
+822,69,Female,,Urgent,Medicare,Home,1,11,4.0,3,106.0,,111.0,95.0,0
+823,28,Female,Heart Failure,Urgent,Medicaid,Home Health Care,0,6,9.0,10,149.0,66.0,98.0,,0
+824,68,Female,Diabetes,Urgent,Medicare,Home Health Care,2,10,23.0,12,124.0,77.0,73.0,65.7,1
+825,65,Male,COPD,Emergency,Medicaid,Home,0,9,22.0,1,90.0,85.0,117.0,105.8,0
+826,24,Male,Diabetes,Urgent,Medicare,Home Health Care,1,7,3.0,8,119.0,99.0,50.0,131.7,0
+827,70,Female,Kidney Disease,Urgent,Medicare,Home Health Care,2,9,24.0,5,146.0,77.0,92.0,88.7,0
+828,87,Female,Diabetes,Emergency,Medicare,Skilled Nursing Facility,1,5,16.0,6,,87.0,72.0,133.7,1
+829,84,Female,COPD,Urgent,Medicare,Home,4,5,,4,157.0,91.0,110.0,60.0,0
+830,20,Male,Pneumonia,Emergency,Medicare,Home,5,9,20.0,13,115.0,78.0,86.0,155.5,0
+831,36,Female,Heart Failure,Emergency,Medicare,Home,1,8,12.0,9,139.0,94.0,70.0,134.6,1
+832,36,Male,COPD,Emergency,Private,Home,2,6,7.0,19,149.0,94.0,78.0,122.2,0
+833,52,Male,Diabetes,Emergency,Private,Home,3,5,13.0,1,138.0,97.0,71.0,,1
+834,29,Female,,Emergency,Medicare,Home,0,11,18.0,15,105.0,86.0,77.0,106.8,0
+835,83,Female,Heart Failure,Emergency,Medicaid,Home,1,1,17.0,18,,108.0,77.0,95.3,1
+836,77,Female,Kidney Disease,Emergency,Medicaid,Home Health Care,2,1,5.0,10,151.0,73.0,71.0,174.9,0
+837,80,Female,Stroke,Elective,Private,Home,1,6,23.0,14,116.0,105.0,86.0,193.6,1
+838,33,Male,Heart Failure,Emergency,Medicare,Home Health Care,2,1,7.0,9,148.0,,88.0,92.3,0
+839,19,Female,Pneumonia,Emergency,Medicare,Home,3,4,20.0,12,122.0,96.0,67.0,115.5,1
+840,88,Male,Kidney Disease,Emergency,Medicare,Home Health Care,1,7,8.0,18,133.0,76.0,57.0,161.8,0
+841,40,Male,Diabetes,Elective,Medicare,Home,1,5,2.0,11,105.0,90.0,87.0,116.9,0
+842,68,Female,Kidney Disease,Urgent,Medicare,Skilled Nursing Facility,2,3,24.0,11,119.0,,90.0,143.8,0
+843,88,Female,Pneumonia,Elective,Private,Skilled Nursing Facility,1,4,15.0,19,114.0,67.0,93.0,151.2,0
+844,20,Female,Stroke,Emergency,Private,Home,1,7,6.0,10,134.0,78.0,90.0,97.5,1
+845,18,Male,Stroke,Emergency,Medicare,Home Health Care,2,11,1.0,4,132.0,54.0,106.0,136.8,0
+846,18,Female,Heart Failure,Urgent,Medicaid,Home,1,9,4.0,13,138.0,78.0,97.0,119.8,0
+847,30,Male,COPD,Emergency,Medicare,Home Health Care,2,7,5.0,14,121.0,70.0,122.0,71.3,0
+848,21,Female,COPD,Urgent,Medicaid,Home,0,2,23.0,5,113.0,77.0,129.0,,0
+849,81,Female,Heart Failure,Elective,Medicaid,Home,0,3,5.0,14,133.0,115.0,56.0,93.9,0
+850,64,Female,Diabetes,Emergency,Medicare,Home,3,5,4.0,2,,101.0,49.0,157.1,1
+851,93,Male,Stroke,Elective,Private,Skilled Nursing Facility,1,3,21.0,7,149.0,63.0,82.0,158.5,0
+852,79,Male,Heart Failure,Urgent,Uninsured,Home,2,8,22.0,17,128.0,87.0,90.0,150.0,1
+853,92,Male,COPD,Emergency,Private,Home Health Care,2,5,6.0,12,,90.0,81.0,137.6,0
+854,36,Female,Kidney Disease,Emergency,Private,Home,0,10,16.0,12,138.0,76.0,93.0,136.5,1
+855,40,Female,,Emergency,Medicaid,Home,2,3,13.0,12,129.0,82.0,78.0,131.1,0
+856,83,Male,COPD,Urgent,Medicare,Home,2,6,14.0,4,,83.0,72.0,136.3,0
+857,36,Female,Stroke,Emergency,Medicare,Skilled Nursing Facility,2,8,8.0,19,111.0,64.0,74.0,139.0,0
+858,22,Female,COPD,Emergency,Medicaid,Skilled Nursing Facility,2,3,19.0,6,149.0,68.0,79.0,63.8,0
+859,69,Male,Heart Failure,Urgent,Medicare,Home,2,9,22.0,15,132.0,82.0,95.0,88.4,1
+860,79,Male,Heart Failure,Emergency,Private,Home Health Care,4,7,18.0,19,100.0,81.0,75.0,78.8,0
+861,92,Female,Stroke,Emergency,Medicare,Home,2,8,22.0,5,136.0,71.0,78.0,164.3,0
+862,89,Female,Diabetes,Urgent,Medicare,Home,2,5,3.0,13,120.0,70.0,91.0,186.2,0
+863,27,Male,COPD,Emergency,Medicare,Home,1,11,16.0,1,,79.0,79.0,60.0,0
+864,77,Female,Heart Failure,Emergency,Uninsured,Home,1,9,24.0,13,109.0,91.0,99.0,,1
+865,83,Female,COPD,Emergency,Medicare,Home,1,3,13.0,9,148.0,79.0,68.0,123.5,0
+866,71,Female,Stroke,Emergency,Medicare,Home Health Care,0,7,23.0,2,95.0,99.0,65.0,160.5,0
+867,81,Female,COPD,Emergency,Medicare,Home,1,10,9.0,13,115.0,72.0,87.0,140.3,1
+868,82,Female,Stroke,Urgent,Private,Skilled Nursing Facility,2,4,22.0,19,132.0,82.0,88.0,177.6,1
+869,52,Male,Diabetes,Elective,Uninsured,Home Health Care,4,6,23.0,2,158.0,76.0,69.0,128.4,0
+870,21,Male,COPD,Emergency,Medicare,Skilled Nursing Facility,1,9,15.0,17,,87.0,102.0,,0
+871,53,Male,Kidney Disease,Elective,Private,Home Health Care,1,4,17.0,17,115.0,71.0,111.0,115.8,0
+872,33,Female,COPD,Urgent,Medicare,Skilled Nursing Facility,1,6,13.0,11,158.0,103.0,73.0,140.6,1
+873,26,Male,Diabetes,Urgent,Medicaid,Home,2,7,8.0,18,106.0,60.0,104.0,111.4,0
+874,27,Male,Kidney Disease,Urgent,Medicare,Home,1,2,13.0,6,135.0,101.0,46.0,146.3,0
+875,71,Female,Diabetes,Urgent,Medicaid,Home,3,2,24.0,14,139.0,81.0,98.0,117.4,0
+876,56,Male,COPD,Urgent,Private,Skilled Nursing Facility,1,7,1.0,14,114.0,87.0,69.0,,0
+877,59,Male,Stroke,Emergency,Medicaid,Home,3,2,5.0,12,143.0,96.0,97.0,76.6,1
+878,75,Male,Heart Failure,Emergency,Medicare,Home Health Care,1,11,12.0,16,121.0,90.0,68.0,104.3,1
+879,60,Male,Diabetes,Emergency,Private,Skilled Nursing Facility,2,6,9.0,17,143.0,71.0,81.0,128.2,1
+880,66,Male,Heart Failure,Emergency,Uninsured,Home,2,8,15.0,15,97.0,87.0,70.0,,1
+881,24,Female,Diabetes,Urgent,Medicaid,Skilled Nursing Facility,2,5,9.0,12,136.0,102.0,79.0,88.8,0
+882,83,Male,Heart Failure,Emergency,Medicaid,Home,2,4,16.0,19,123.0,69.0,109.0,60.0,1
+883,52,Male,Pneumonia,Emergency,Private,Home,4,6,3.0,11,,105.0,80.0,95.3,0
+884,29,Female,Heart Failure,Emergency,Medicare,Home Health Care,1,8,8.0,13,129.0,,114.0,167.9,0
+885,80,Male,Pneumonia,Emergency,Private,Home,0,5,17.0,4,152.0,75.0,76.0,72.6,0
+886,74,Female,Diabetes,Urgent,Medicare,Home,2,4,12.0,7,139.0,69.0,104.0,148.1,1
+887,22,Female,Diabetes,Urgent,Private,Home,1,2,18.0,18,128.0,77.0,58.0,234.0,0
+888,32,Female,Diabetes,Emergency,Medicare,Home,1,6,16.0,10,144.0,57.0,78.0,178.1,0
+889,19,Male,Pneumonia,Emergency,Medicare,Skilled Nursing Facility,4,8,8.0,10,144.0,75.0,74.0,125.3,0
+890,38,Male,COPD,Emergency,Medicaid,Skilled Nursing Facility,1,6,11.0,16,138.0,77.0,105.0,154.3,0
+891,25,Female,Diabetes,Emergency,Medicaid,Home,0,3,24.0,7,89.0,67.0,85.0,65.2,0
+892,72,Male,Kidney Disease,Urgent,Private,Home,2,3,24.0,6,112.0,89.0,51.0,60.0,0
+893,58,Female,COPD,Urgent,Uninsured,Home,2,5,1.0,1,,77.0,62.0,121.1,0
+894,93,Male,Heart Failure,Emergency,Medicare,Skilled Nursing Facility,2,4,17.0,5,107.0,72.0,67.0,135.9,1
+895,75,Male,Stroke,Emergency,Medicare,Home Health Care,0,3,12.0,10,146.0,76.0,96.0,163.8,0
+896,65,Female,Diabetes,Elective,Medicare,Home,1,11,1.0,14,,84.0,94.0,97.2,0
+897,57,Female,Heart Failure,Urgent,Medicaid,Home,2,4,16.0,7,117.0,81.0,77.0,127.7,0
+898,22,Female,COPD,Emergency,Medicaid,Skilled Nursing Facility,0,3,1.0,9,94.0,72.0,74.0,126.4,0
+899,23,Female,Heart Failure,Emergency,Private,Skilled Nursing Facility,3,7,8.0,5,120.0,82.0,93.0,114.7,1
+900,65,Male,Diabetes,Emergency,Private,Home,3,9,17.0,16,167.0,79.0,65.0,117.1,1
+901,18,Female,Kidney Disease,Elective,Medicare,Skilled Nursing Facility,0,6,20.0,10,114.0,,89.0,85.8,0
+902,21,Female,Heart Failure,Emergency,Medicaid,Home,4,8,10.0,3,116.0,77.0,88.0,131.2,0
+903,34,Male,Kidney Disease,Emergency,Medicaid,Home,0,2,20.0,12,112.0,87.0,78.0,127.8,0
+904,86,Male,Stroke,Elective,Medicaid,Skilled Nursing Facility,0,6,21.0,7,152.0,87.0,88.0,102.4,1
+905,53,Female,Pneumonia,Urgent,Medicare,Home,1,1,11.0,17,126.0,77.0,84.0,146.6,0
+906,72,Male,Pneumonia,Emergency,Medicare,Home,1,2,5.0,6,,88.0,89.0,161.1,0
+907,49,Female,Pneumonia,Emergency,Medicare,Skilled Nursing Facility,3,7,16.0,17,155.0,68.0,62.0,147.1,0
+908,31,Male,Stroke,Emergency,Medicare,Skilled Nursing Facility,1,3,1.0,14,140.0,69.0,91.0,,1
+909,46,Male,Diabetes,Urgent,Private,Home,2,1,22.0,3,113.0,77.0,97.0,,0
+910,25,Male,Heart Failure,Emergency,Medicare,Home Health Care,0,2,10.0,15,,98.0,87.0,83.5,0
+911,77,Male,COPD,Elective,Medicaid,Skilled Nursing Facility,5,9,19.0,14,151.0,82.0,91.0,123.9,1
+912,32,Female,COPD,Elective,Medicaid,Home Health Care,2,7,18.0,9,,77.0,80.0,83.7,0
+913,46,Female,Heart Failure,Emergency,Private,Transferred,0,5,12.0,4,102.0,,95.0,171.1,1
+914,93,Female,Pneumonia,Urgent,Medicare,Home Health Care,2,11,24.0,10,98.0,77.0,83.0,151.3,1
+915,63,Female,Heart Failure,Emergency,Medicare,Home,1,5,20.0,12,110.0,107.0,65.0,166.1,0
+916,53,Male,Stroke,Emergency,Medicare,Home,2,10,22.0,3,108.0,74.0,94.0,162.1,0
+917,59,Female,Diabetes,Urgent,Medicare,Skilled Nursing Facility,2,4,3.0,7,93.0,68.0,57.0,109.2,0
+918,78,Female,Heart Failure,Emergency,Medicare,Transferred,1,1,12.0,14,110.0,78.0,86.0,103.0,0
+919,37,Female,Heart Failure,Emergency,Private,Home,0,2,23.0,11,113.0,77.0,76.0,189.7,0
+920,67,Female,Diabetes,Emergency,Medicare,Home,2,4,20.0,19,122.0,70.0,75.0,113.4,1
+921,85,Female,Diabetes,Emergency,Medicare,Skilled Nursing Facility,1,3,11.0,5,160.0,,85.0,65.8,1
+922,62,Female,Heart Failure,Emergency,Medicare,Home,2,2,2.0,15,125.0,84.0,71.0,,1
+923,52,Female,Diabetes,Urgent,Private,Home,2,5,7.0,9,127.0,86.0,90.0,125.8,0
+924,29,Female,Heart Failure,Urgent,Private,Skilled Nursing Facility,1,11,14.0,5,139.0,74.0,83.0,180.2,1
+925,37,Female,Diabetes,Urgent,Private,Skilled Nursing Facility,2,3,16.0,19,126.0,,73.0,129.7,0
+926,90,Male,Diabetes,Urgent,Medicaid,Skilled Nursing Facility,0,3,23.0,12,137.0,92.0,102.0,,0
+927,59,Male,Diabetes,Emergency,Private,Home Health Care,2,11,3.0,11,,60.0,85.0,181.0,1
+928,41,Female,Diabetes,Urgent,Private,Home,2,3,10.0,6,132.0,66.0,91.0,60.0,0
+929,50,Male,Heart Failure,Emergency,Medicare,Skilled Nursing Facility,3,10,7.0,17,,77.0,103.0,96.6,1
+930,62,Male,Heart Failure,Emergency,Medicaid,Home,1,7,24.0,1,146.0,96.0,103.0,84.5,0
+931,59,Female,Heart Failure,Elective,Private,Home,3,11,4.0,3,111.0,76.0,91.0,60.0,0
+932,71,Female,Kidney Disease,Emergency,Medicare,Skilled Nursing Facility,1,7,6.0,4,137.0,85.0,77.0,154.9,0
+933,37,Female,Stroke,Emergency,Private,Home Health Care,1,7,8.0,13,116.0,80.0,61.0,,0
+934,67,Male,Stroke,Emergency,Medicaid,Skilled Nursing Facility,2,3,3.0,2,138.0,96.0,85.0,156.2,0
+935,52,Male,COPD,Emergency,Medicaid,Home,3,7,16.0,16,105.0,,98.0,135.6,1
+936,90,Female,,Emergency,Medicare,Transferred,0,8,13.0,4,110.0,89.0,87.0,144.3,1
+937,30,Female,Diabetes,Emergency,Private,Home Health Care,1,11,14.0,13,136.0,78.0,30.0,101.8,0
+938,29,Male,Kidney Disease,Elective,Private,Home Health Care,1,2,22.0,16,148.0,91.0,95.0,,0
+939,53,Female,Kidney Disease,Emergency,Medicare,Skilled Nursing Facility,2,2,11.0,17,139.0,70.0,96.0,123.6,1
+940,57,Male,Kidney Disease,Emergency,Medicare,Home,2,1,8.0,6,145.0,80.0,77.0,156.8,0
+941,71,Female,Stroke,Emergency,Medicare,Home Health Care,2,9,10.0,2,137.0,79.0,97.0,118.0,0
+942,49,Female,COPD,Urgent,Medicare,Home Health Care,3,1,20.0,15,133.0,68.0,91.0,91.9,0
+943,88,Female,Kidney Disease,Emergency,Uninsured,Skilled Nursing Facility,0,11,13.0,9,121.0,65.0,72.0,72.0,1
+944,54,Female,Kidney Disease,Emergency,Medicaid,Skilled Nursing Facility,0,5,5.0,19,145.0,73.0,101.0,128.2,0
+945,27,Male,Diabetes,Emergency,Medicare,Home Health Care,3,4,17.0,4,148.0,82.0,63.0,97.8,0
+946,27,Male,Stroke,Urgent,Medicare,Home,3,11,18.0,11,129.0,71.0,81.0,117.1,0
+947,92,Male,Heart Failure,Urgent,Uninsured,Home,1,8,6.0,3,128.0,76.0,80.0,110.4,0
+948,28,Female,Stroke,Urgent,Medicare,Transferred,0,7,14.0,10,159.0,57.0,70.0,102.2,0
+949,90,Female,Kidney Disease,Urgent,Private,Transferred,2,10,14.0,1,130.0,76.0,87.0,131.8,1
+950,39,Female,Heart Failure,Emergency,Medicare,Transferred,2,9,5.0,15,,92.0,102.0,142.2,0
+951,25,Male,Pneumonia,Emergency,Medicare,Home,2,8,1.0,12,139.0,88.0,101.0,198.6,1
+952,41,Male,Heart Failure,Emergency,Private,Home,2,4,18.0,2,128.0,79.0,93.0,150.3,0
+953,65,Female,Kidney Disease,Emergency,Medicare,Skilled Nursing Facility,2,11,15.0,10,115.0,83.0,57.0,183.7,1
+954,50,Female,Kidney Disease,Emergency,Private,Skilled Nursing Facility,3,8,18.0,9,137.0,70.0,62.0,87.3,0
+955,78,Female,Pneumonia,Emergency,Medicare,Home,2,11,10.0,13,129.0,99.0,84.0,60.0,0
+956,65,Male,Kidney Disease,Emergency,Private,Home Health Care,1,11,13.0,10,163.0,105.0,81.0,119.4,0
+957,48,Male,Heart Failure,Urgent,Private,Home,2,7,24.0,9,144.0,82.0,75.0,154.3,0
+958,66,Female,Diabetes,Emergency,Private,Home,2,4,6.0,16,119.0,111.0,111.0,148.0,1
+959,92,Female,Diabetes,Urgent,Medicare,Home,1,11,16.0,10,143.0,72.0,84.0,168.5,0
+960,49,Male,Heart Failure,Urgent,Private,Home,1,11,4.0,16,136.0,65.0,90.0,60.0,0
+961,29,Female,COPD,Emergency,Uninsured,Home,3,2,2.0,17,154.0,71.0,97.0,170.1,0
+962,49,Male,Diabetes,Emergency,Medicare,Skilled Nursing Facility,2,8,23.0,17,121.0,77.0,83.0,133.4,1
+963,82,Male,Diabetes,Urgent,Medicare,Home Health Care,4,7,4.0,19,133.0,108.0,121.0,60.0,0
+964,34,Female,COPD,Urgent,Private,Transferred,4,9,,14,128.0,77.0,68.0,148.9,1
+965,91,Female,Kidney Disease,Emergency,Medicare,Home,1,11,13.0,11,131.0,70.0,73.0,126.8,1
+966,63,Female,Diabetes,Emergency,Private,Home,0,3,20.0,11,114.0,69.0,68.0,135.2,0
+967,64,Male,Stroke,Urgent,Private,Home,4,11,14.0,4,140.0,94.0,105.0,160.0,0
+968,42,Female,COPD,Urgent,Medicare,Home Health Care,2,8,17.0,16,138.0,92.0,94.0,137.2,0
+969,88,Female,Diabetes,Emergency,Medicaid,Home,2,1,22.0,14,153.0,74.0,74.0,61.1,0
+970,20,Female,COPD,Emergency,Medicaid,Home Health Care,1,6,20.0,17,130.0,57.0,69.0,,0
+971,40,Male,Diabetes,Elective,Medicare,Skilled Nursing Facility,2,2,18.0,14,123.0,,103.0,60.0,0
+972,50,Female,Diabetes,Emergency,Private,Skilled Nursing Facility,0,11,4.0,10,144.0,101.0,87.0,146.0,0
+973,54,Female,COPD,Elective,Medicare,Home,4,9,5.0,6,116.0,88.0,103.0,,0
+974,54,Female,Heart Failure,Emergency,Medicare,Home,2,10,12.0,19,150.0,81.0,81.0,70.3,0
+975,29,Male,Diabetes,Emergency,Private,Home,2,7,16.0,14,149.0,102.0,90.0,93.1,0
+976,35,Female,COPD,Emergency,Medicare,Home,2,5,17.0,17,153.0,103.0,87.0,84.7,0
+977,25,Male,Diabetes,Emergency,Private,Home Health Care,2,5,19.0,12,137.0,,73.0,101.8,0
+978,62,Male,Kidney Disease,Elective,Medicare,Home,2,11,3.0,10,121.0,80.0,80.0,136.5,1
+979,45,Female,Diabetes,Emergency,Medicaid,Home Health Care,0,2,5.0,1,132.0,73.0,64.0,102.3,0
+980,61,Male,Stroke,Elective,Medicare,Home,1,10,4.0,2,137.0,77.0,89.0,146.1,0
+981,63,Female,Kidney Disease,Emergency,Private,Transferred,0,5,13.0,14,120.0,62.0,93.0,162.6,0
+982,72,Male,Stroke,Elective,Private,Transferred,5,7,16.0,5,154.0,62.0,97.0,164.1,1
+983,60,Female,Kidney Disease,Elective,Private,Home,3,8,3.0,2,140.0,59.0,92.0,,0
+984,67,Female,Heart Failure,Urgent,Uninsured,Skilled Nursing Facility,1,1,21.0,15,114.0,93.0,80.0,175.4,1
+985,63,Female,COPD,Emergency,Private,Home,1,2,8.0,12,164.0,61.0,105.0,178.6,0
+986,68,Male,Heart Failure,Urgent,Private,Home Health Care,2,2,16.0,3,132.0,103.0,95.0,182.1,0
+987,65,Male,Kidney Disease,Emergency,Medicaid,Skilled Nursing Facility,0,9,19.0,10,110.0,71.0,103.0,113.7,1
+988,42,Male,Pneumonia,Elective,Private,Skilled Nursing Facility,1,1,1.0,9,115.0,101.0,104.0,89.9,1
+989,36,Male,Diabetes,Emergency,Medicaid,Skilled Nursing Facility,2,7,21.0,1,157.0,76.0,80.0,80.6,0
+990,78,Female,Stroke,Emergency,Private,Home,1,2,24.0,12,163.0,61.0,88.0,75.9,0
+991,44,Male,Heart Failure,Emergency,Medicare,Skilled Nursing Facility,0,9,24.0,8,148.0,95.0,94.0,120.5,0
+992,60,Male,COPD,Urgent,Medicaid,Home Health Care,5,11,4.0,17,,97.0,65.0,153.9,1
+993,33,Male,Pneumonia,Elective,Private,Home,2,5,10.0,3,152.0,69.0,65.0,172.3,0
+994,51,Male,Heart Failure,Emergency,Medicare,Home,3,3,6.0,17,140.0,76.0,63.0,100.6,1
+995,58,Female,Pneumonia,Urgent,Medicare,Skilled Nursing Facility,1,5,11.0,1,136.0,69.0,80.0,118.5,0
+996,66,Female,Kidney Disease,Elective,Uninsured,Home Health Care,2,8,24.0,15,140.0,79.0,77.0,115.8,0
+997,58,Male,Heart Failure,Emergency,Medicare,Home,0,9,19.0,15,143.0,81.0,60.0,94.6,0
+998,45,Female,COPD,Emergency,Medicare,Skilled Nursing Facility,1,8,19.0,8,,76.0,84.0,149.4,1
+999,92,Female,Diabetes,Urgent,Medicare,Home Health Care,2,7,11.0,6,143.0,58.0,81.0,134.5,0
+1000,57,Male,Pneumonia,Urgent,Medicare,Home,1,7,23.0,3,156.0,73.0,100.0,125.7,0
+1001,80,Male,Heart Failure,Emergency,Medicaid,Home,3,3,23.0,7,126.0,,112.0,134.3,1
+1002,74,Male,Stroke,Urgent,Private,Home Health Care,2,3,20.0,13,124.0,77.0,89.0,144.6,0
+1003,60,Male,Stroke,Emergency,Uninsured,Skilled Nursing Facility,2,11,20.0,14,139.0,76.0,72.0,144.2,0
+1004,86,Male,Heart Failure,Elective,Private,Home Health Care,1,7,16.0,4,118.0,69.0,92.0,86.5,0
+1005,27,Male,Diabetes,Elective,Private,Home,2,10,3.0,1,106.0,73.0,82.0,155.9,0
+1006,88,Female,,Urgent,Medicare,Home Health Care,1,7,7.0,11,151.0,97.0,78.0,130.2,0
+1007,83,Male,Pneumonia,Emergency,Private,Home Health Care,4,6,19.0,12,122.0,66.0,69.0,102.6,0
+1008,56,Female,COPD,Emergency,Medicare,Skilled Nursing Facility,1,7,8.0,19,130.0,89.0,75.0,129.4,1
+1009,74,Male,Heart Failure,Emergency,Medicare,Home,0,8,5.0,15,,81.0,79.0,133.8,0
+1010,58,Male,Heart Failure,Emergency,Uninsured,Skilled Nursing Facility,2,3,23.0,11,153.0,83.0,94.0,163.3,1
+1011,38,Female,Stroke,Urgent,Private,Home,0,6,12.0,12,145.0,71.0,90.0,78.2,0
+1012,79,Female,COPD,Emergency,Medicare,Home,1,8,21.0,13,126.0,76.0,109.0,173.0,0
+1013,36,Female,Kidney Disease,Emergency,Private,Home Health Care,1,1,7.0,9,109.0,80.0,92.0,120.9,0
+1014,42,Male,COPD,Emergency,Medicaid,Home Health Care,0,1,9.0,13,124.0,74.0,88.0,99.8,0
+1015,57,Male,Stroke,Emergency,Medicare,Home,2,2,9.0,4,140.0,,77.0,98.5,1
+1016,82,Male,Heart Failure,Emergency,Medicare,Skilled Nursing Facility,2,7,9.0,16,133.0,85.0,66.0,79.9,0
+1017,47,Male,Heart Failure,Urgent,Medicare,Home,3,3,11.0,17,132.0,106.0,73.0,,0
+1018,56,Female,Stroke,Urgent,Medicaid,Home,3,5,8.0,9,134.0,83.0,72.0,147.1,0
+1019,21,Male,Stroke,Emergency,Medicare,Home,2,2,20.0,9,144.0,57.0,44.0,199.2,0
+1020,26,Male,Diabetes,Elective,Medicaid,Home,2,3,8.0,10,129.0,94.0,67.0,60.0,0
+1021,22,Female,Diabetes,Elective,Medicare,Home Health Care,1,1,11.0,16,138.0,78.0,106.0,82.0,0
+1022,23,Male,COPD,Emergency,Private,Skilled Nursing Facility,1,9,21.0,4,112.0,104.0,88.0,150.1,0
+1023,84,Male,Diabetes,Urgent,Medicaid,Home Health Care,4,6,11.0,7,176.0,98.0,76.0,118.2,0
+1024,82,Male,Heart Failure,Emergency,Private,Home,4,2,1.0,12,125.0,74.0,88.0,153.4,0
+1025,81,Male,Stroke,Emergency,Medicare,Home,0,6,1.0,14,134.0,89.0,53.0,115.9,1
+1026,22,Female,Diabetes,Emergency,Medicaid,Home,1,11,11.0,6,140.0,73.0,86.0,96.8,0
+1027,23,Female,Pneumonia,Emergency,Private,Home Health Care,0,10,16.0,3,123.0,80.0,101.0,111.0,0
+1028,39,Female,Heart Failure,Elective,Medicare,Home,1,10,23.0,10,130.0,88.0,80.0,60.0,0
+1029,61,Male,Heart Failure,Elective,Medicare,Home,1,5,4.0,13,130.0,93.0,55.0,74.3,0
+1030,43,Female,Pneumonia,Urgent,Medicare,Skilled Nursing Facility,2,4,14.0,15,114.0,91.0,76.0,157.9,0
+1031,55,Female,Diabetes,Urgent,Medicare,Home Health Care,1,4,7.0,1,138.0,81.0,101.0,167.7,0
+1032,31,Male,Pneumonia,Urgent,Medicare,Home,2,4,11.0,1,100.0,110.0,86.0,176.2,1
+1033,74,Female,Heart Failure,Elective,Medicare,Home,2,11,11.0,8,162.0,76.0,61.0,137.6,1
+1034,42,Male,Stroke,Emergency,Medicare,Home Health Care,3,2,8.0,11,144.0,61.0,118.0,60.0,0
+1035,23,Female,Kidney Disease,Emergency,Medicaid,Home,1,10,1.0,1,142.0,63.0,63.0,94.6,0
+1036,75,Female,Kidney Disease,Urgent,Medicare,Home,0,11,2.0,4,99.0,98.0,78.0,,1
+1037,87,Male,Heart Failure,Emergency,Medicare,Skilled Nursing Facility,2,10,13.0,8,116.0,,66.0,184.9,1
+1038,19,Male,Diabetes,Emergency,Private,Home,1,7,6.0,6,155.0,82.0,66.0,174.5,0
+1039,51,Male,Diabetes,Emergency,Medicare,Home,1,10,8.0,14,205.0,73.0,75.0,110.5,1
+1040,81,Female,COPD,Urgent,Medicare,Home,0,1,3.0,1,152.0,75.0,92.0,67.7,0
+1041,72,Male,Diabetes,Emergency,Medicare,Home,0,9,2.0,17,149.0,,101.0,118.4,1
+1042,83,Female,Heart Failure,Emergency,Medicare,Home,2,6,4.0,4,139.0,86.0,76.0,120.6,0
+1043,49,Male,Diabetes,Emergency,Medicaid,Home,0,11,10.0,9,115.0,79.0,67.0,182.6,0
+1044,46,Male,Diabetes,Emergency,Medicare,Home Health Care,3,1,4.0,19,148.0,85.0,89.0,129.1,0
+1045,72,Female,Diabetes,Elective,Medicare,Home,3,11,6.0,13,110.0,84.0,90.0,,0
+1046,29,Female,Heart Failure,Emergency,Uninsured,Skilled Nursing Facility,2,7,8.0,19,108.0,,86.0,122.9,1
+1047,36,Female,Diabetes,Urgent,Private,Transferred,2,2,7.0,1,107.0,62.0,86.0,136.0,0
+1048,64,Male,Pneumonia,Urgent,Medicare,Home,3,6,1.0,14,148.0,61.0,80.0,145.1,0
+1049,69,Male,Diabetes,Emergency,Medicare,Home,1,1,3.0,2,129.0,116.0,83.0,91.0,0
+1050,27,Male,Diabetes,Urgent,Medicaid,Skilled Nursing Facility,1,1,23.0,12,132.0,98.0,79.0,77.7,0
+1051,57,Female,COPD,Urgent,Private,Transferred,1,6,17.0,7,130.0,96.0,98.0,174.8,0
+1052,46,Female,Kidney Disease,Urgent,Private,Skilled Nursing Facility,0,9,3.0,15,110.0,72.0,115.0,60.0,0
+1053,56,Male,Diabetes,Emergency,Medicare,Home,2,2,7.0,3,118.0,80.0,85.0,185.5,0
+1054,91,Female,Pneumonia,Emergency,Medicare,Home,1,3,10.0,18,119.0,70.0,82.0,60.0,1
+1055,23,Male,Stroke,Elective,Medicare,Home,2,5,22.0,10,105.0,64.0,86.0,96.6,1
+1056,94,Female,COPD,Urgent,Private,Skilled Nursing Facility,2,6,22.0,10,121.0,73.0,72.0,158.9,0
+1057,52,Female,Stroke,Elective,Private,Home Health Care,2,1,19.0,11,111.0,96.0,93.0,,0
+1058,77,Female,Kidney Disease,Elective,Medicare,Home,1,8,3.0,1,140.0,90.0,89.0,67.3,0
+1059,50,Male,Heart Failure,Emergency,Medicaid,Home Health Care,0,6,12.0,6,142.0,68.0,76.0,137.1,1
+1060,41,Female,COPD,Urgent,Medicare,Home,2,11,12.0,14,107.0,76.0,96.0,,1
+1061,77,Male,Pneumonia,Emergency,Private,Home Health Care,1,4,16.0,19,125.0,89.0,82.0,111.4,0
+1062,70,Female,Stroke,Urgent,Private,Home,2,6,21.0,19,163.0,73.0,67.0,95.0,0
+1063,29,Male,COPD,Emergency,Medicaid,Home Health Care,2,1,8.0,11,112.0,81.0,87.0,118.6,0
+1064,72,Female,Heart Failure,Emergency,Medicare,Home Health Care,2,11,14.0,5,138.0,85.0,86.0,96.7,0
+1065,75,Male,COPD,Urgent,Medicaid,Home Health Care,2,10,7.0,10,132.0,85.0,96.0,217.4,1
+1066,47,Male,Heart Failure,Urgent,Medicare,Home,0,4,6.0,9,150.0,83.0,94.0,110.4,0
+1067,89,Female,Kidney Disease,Urgent,Private,Skilled Nursing Facility,4,6,8.0,8,135.0,72.0,80.0,105.0,0
+1068,67,Female,COPD,Emergency,Medicare,Home Health Care,0,10,18.0,7,122.0,73.0,75.0,98.3,1
+1069,43,Male,Pneumonia,Emergency,Private,Home,3,4,,17,131.0,66.0,82.0,191.1,0
+1070,18,Female,Kidney Disease,Elective,Medicare,Home,0,3,17.0,8,131.0,61.0,87.0,60.0,0
+1071,69,Male,,Emergency,Medicare,Home Health Care,1,3,17.0,1,128.0,79.0,89.0,134.4,0
+1072,34,Male,Pneumonia,Emergency,Medicare,Home,0,8,9.0,14,106.0,90.0,87.0,110.4,0
+1073,76,Male,Kidney Disease,Urgent,Medicare,Home,2,3,23.0,13,152.0,63.0,81.0,63.1,1
+1074,58,Male,Kidney Disease,Emergency,Medicare,Home,0,1,2.0,8,149.0,83.0,97.0,87.2,0
+1075,53,Male,Kidney Disease,Urgent,Private,Home,0,2,22.0,12,111.0,89.0,72.0,,0
+1076,30,Male,Heart Failure,Emergency,Medicare,Home,2,11,1.0,18,125.0,58.0,119.0,85.4,1
+1077,72,Male,COPD,Urgent,Medicare,Home Health Care,1,10,10.0,18,,77.0,93.0,130.4,0
+1078,30,Male,Heart Failure,Elective,Medicare,Home,0,11,20.0,16,109.0,100.0,65.0,189.2,1
+1079,50,Male,Kidney Disease,Elective,Medicare,Home Health Care,1,4,17.0,12,96.0,87.0,85.0,126.8,0
+1080,82,Female,Pneumonia,Urgent,Private,Home,0,5,8.0,1,118.0,58.0,94.0,61.9,0
+1081,88,Female,COPD,Emergency,Private,Home,1,6,22.0,10,124.0,88.0,77.0,86.1,1
+1082,94,Male,Heart Failure,Urgent,Medicare,Home,1,6,4.0,16,104.0,71.0,60.0,108.6,0
+1083,91,Male,Diabetes,Urgent,Private,Skilled Nursing Facility,0,1,17.0,17,133.0,88.0,66.0,105.9,0
+1084,60,Female,Pneumonia,Urgent,Private,Transferred,0,7,13.0,15,151.0,72.0,90.0,126.1,0
+1085,33,Female,Heart Failure,Urgent,Uninsured,Home,2,1,5.0,19,145.0,,56.0,132.5,0
+1086,82,Female,Heart Failure,Urgent,Medicare,Home,2,4,23.0,10,128.0,74.0,60.0,189.2,1
+1087,79,Female,,Urgent,Medicare,Home,0,4,19.0,3,97.0,80.0,90.0,119.9,0
+1088,94,Female,Kidney Disease,Urgent,Medicaid,Home,0,8,1.0,10,143.0,73.0,79.0,73.9,0
+1089,68,Female,Heart Failure,Emergency,Private,Skilled Nursing Facility,0,10,3.0,7,133.0,77.0,72.0,166.2,1
+1090,28,Male,Diabetes,Emergency,Private,Home,1,8,2.0,16,138.0,66.0,75.0,170.5,0
+1091,56,Male,Stroke,Urgent,Medicaid,Transferred,3,5,10.0,15,165.0,86.0,60.0,129.3,1
+1092,52,Male,Pneumonia,Emergency,Medicare,Home Health Care,3,6,11.0,9,115.0,82.0,89.0,,1
+1093,82,Male,Pneumonia,Elective,Private,Home,0,6,18.0,8,78.0,61.0,70.0,144.9,0
+1094,48,Female,Diabetes,Urgent,Private,Skilled Nursing Facility,1,2,17.0,4,,92.0,74.0,111.6,0
+1095,43,Female,Diabetes,Emergency,Medicare,Home,1,11,1.0,1,139.0,78.0,87.0,60.0,0
+1096,24,Female,Heart Failure,Urgent,Private,Skilled Nursing Facility,2,11,12.0,6,130.0,82.0,78.0,142.5,0
+1097,82,Male,Pneumonia,Urgent,Medicare,Home,1,3,19.0,5,108.0,89.0,71.0,155.7,0
+1098,76,Male,Heart Failure,Urgent,Medicaid,Skilled Nursing Facility,2,2,22.0,6,104.0,84.0,52.0,177.6,0
+1099,21,Male,Heart Failure,Emergency,Medicaid,Home,1,2,,19,124.0,94.0,88.0,90.8,1
+1100,51,Female,Pneumonia,Elective,Private,Home,2,7,2.0,13,108.0,76.0,83.0,129.0,1
+1101,54,Male,Stroke,Emergency,Uninsured,Skilled Nursing Facility,4,1,4.0,11,139.0,92.0,74.0,129.9,1
+1102,54,Male,Kidney Disease,Urgent,Medicare,Home,3,2,9.0,4,123.0,81.0,66.0,123.4,0
+1103,88,Female,COPD,Emergency,Medicare,Home,1,8,11.0,16,119.0,86.0,82.0,124.6,1
+1104,29,Female,COPD,Urgent,Medicare,Skilled Nursing Facility,0,2,9.0,13,116.0,85.0,89.0,121.5,0
+1105,41,Female,COPD,Urgent,Medicare,Home,1,1,3.0,10,135.0,95.0,83.0,128.5,0
+1106,31,Male,Diabetes,Urgent,Medicare,Skilled Nursing Facility,1,1,9.0,9,131.0,89.0,107.0,149.6,0
+1107,36,Male,COPD,Emergency,Medicare,Home Health Care,1,8,7.0,11,134.0,75.0,93.0,168.8,1
+1108,87,Male,COPD,Urgent,Medicare,Home Health Care,1,4,12.0,16,133.0,72.0,80.0,89.7,0
+1109,90,Male,Pneumonia,Urgent,Medicare,Home,3,4,2.0,14,129.0,79.0,93.0,113.1,0
+1110,21,Female,Stroke,Emergency,Medicare,Home,0,8,19.0,10,111.0,71.0,83.0,103.1,0
+1111,66,Male,Stroke,Elective,Private,Transferred,4,2,11.0,13,117.0,67.0,83.0,97.4,0
+1112,35,Male,Heart Failure,Urgent,Medicare,Home,3,6,8.0,18,123.0,54.0,101.0,60.0,1
+1113,32,Female,Diabetes,Elective,Medicaid,Home,1,6,22.0,7,167.0,61.0,69.0,121.0,0
+1114,40,Male,Heart Failure,Elective,Private,Home,2,8,18.0,18,106.0,104.0,82.0,139.2,0
+1115,32,Male,Diabetes,Elective,Medicaid,Home,1,7,4.0,12,122.0,72.0,100.0,113.8,0
+1116,55,Male,Diabetes,Urgent,Medicare,Home Health Care,1,8,4.0,4,,103.0,87.0,119.6,0
+1117,94,Male,Heart Failure,Urgent,Medicare,Skilled Nursing Facility,3,3,1.0,19,125.0,85.0,76.0,136.7,0
+1118,63,Male,Kidney Disease,Emergency,Medicaid,Skilled Nursing Facility,3,2,14.0,14,149.0,79.0,56.0,176.4,1
+1119,73,Female,COPD,Emergency,Medicaid,Skilled Nursing Facility,1,6,9.0,8,124.0,62.0,48.0,103.2,1
+1120,55,Female,Stroke,Urgent,Medicare,Home,1,1,10.0,5,126.0,80.0,113.0,73.1,0
+1121,19,Male,,Emergency,Medicare,Home,1,5,13.0,18,145.0,103.0,87.0,,0
+1122,24,Male,Heart Failure,Elective,Medicaid,Home,0,7,13.0,16,163.0,99.0,73.0,195.3,0
+1123,38,Male,Diabetes,Emergency,Medicare,Home Health Care,2,10,1.0,1,155.0,83.0,87.0,73.6,0
+1124,36,Female,,Emergency,Medicaid,Home,8,8,3.0,13,,66.0,68.0,146.0,1
+1125,82,Female,Diabetes,Emergency,Medicare,Home Health Care,4,11,19.0,3,129.0,69.0,77.0,166.3,0
+1126,82,Female,Stroke,Emergency,Medicare,Home,2,7,23.0,6,131.0,,68.0,60.0,0
+1127,83,Male,Heart Failure,Emergency,Private,Skilled Nursing Facility,4,5,21.0,11,,95.0,61.0,136.4,1
+1128,67,Male,Heart Failure,Emergency,Medicare,Skilled Nursing Facility,1,3,22.0,5,115.0,,50.0,144.1,0
+1129,60,Male,COPD,Urgent,Medicaid,Skilled Nursing Facility,1,8,12.0,10,147.0,82.0,58.0,,0
+1130,67,Male,COPD,Emergency,Medicare,Home,1,9,,9,134.0,76.0,97.0,94.1,0
+1131,49,Male,Pneumonia,Emergency,Medicare,Transferred,0,4,22.0,12,129.0,99.0,67.0,96.4,1
+1132,69,Female,Diabetes,Emergency,Private,Home,2,1,22.0,16,107.0,68.0,90.0,106.9,1
+1133,79,Male,Kidney Disease,Emergency,Medicare,Home,1,1,4.0,3,131.0,81.0,96.0,107.9,0
+1134,76,Female,Heart Failure,Emergency,Medicare,Home,0,7,4.0,16,96.0,86.0,82.0,100.4,0
+1135,65,Female,COPD,Urgent,Private,Home,0,8,10.0,5,120.0,70.0,78.0,106.2,0
+1136,22,Female,Pneumonia,Urgent,Private,Home Health Care,4,2,13.0,1,120.0,72.0,84.0,167.6,0
+1137,73,Male,Kidney Disease,Emergency,Private,Home,3,1,23.0,9,135.0,71.0,76.0,71.4,0
+1138,46,Female,Diabetes,Urgent,Medicare,Home,0,8,8.0,6,164.0,97.0,100.0,,0
+1139,75,Male,COPD,Emergency,Medicare,Home Health Care,2,5,20.0,4,140.0,103.0,110.0,168.3,1
+1140,59,Male,Heart Failure,Emergency,Medicaid,Skilled Nursing Facility,2,5,22.0,9,156.0,81.0,104.0,112.3,1
+1141,85,Male,Heart Failure,Elective,Medicare,Home Health Care,0,3,,17,142.0,77.0,50.0,104.5,1
+1142,44,Male,Heart Failure,Emergency,Medicare,Home Health Care,0,8,5.0,12,150.0,73.0,75.0,115.6,1
+1143,89,Female,Pneumonia,Elective,Private,Home,2,9,6.0,14,,80.0,82.0,128.4,0
+1144,83,Female,Diabetes,Emergency,Medicare,Skilled Nursing Facility,0,1,6.0,3,117.0,73.0,89.0,99.0,0
+1145,43,Female,,Emergency,Medicare,Home,1,1,18.0,2,116.0,79.0,56.0,,0
+1146,55,Male,Heart Failure,Emergency,Medicare,Home,1,7,17.0,7,142.0,85.0,56.0,81.5,0
+1147,58,Male,Kidney Disease,Emergency,Medicare,Home,3,7,10.0,15,130.0,75.0,102.0,107.9,0
+1148,77,Female,Kidney Disease,Elective,Medicaid,Home Health Care,1,2,3.0,17,134.0,78.0,74.0,,0
+1149,71,Male,Heart Failure,Emergency,Private,Home,2,2,13.0,2,,78.0,60.0,166.9,0
+1150,83,Female,Heart Failure,Elective,Medicare,Home Health Care,0,8,18.0,10,119.0,76.0,65.0,113.0,1
+1151,46,Female,,Elective,Medicare,Home,3,6,12.0,8,159.0,75.0,88.0,146.8,0
+1152,56,Female,Kidney Disease,Urgent,Medicaid,Home,0,2,7.0,15,110.0,89.0,70.0,139.1,1
+1153,51,Female,Diabetes,Emergency,Medicare,Home,1,7,15.0,4,142.0,59.0,86.0,142.0,0
+1154,88,Male,COPD,Emergency,Medicaid,Home,0,1,16.0,10,139.0,99.0,67.0,,0
+1155,41,Male,COPD,Emergency,Private,Home,2,3,15.0,17,,82.0,56.0,135.5,0
+1156,63,Male,Kidney Disease,Urgent,Medicaid,Home Health Care,3,8,21.0,9,115.0,87.0,103.0,81.5,0
+1157,27,Male,COPD,Emergency,Medicare,Home,1,3,8.0,15,118.0,89.0,88.0,73.2,0
+1158,83,Male,COPD,Elective,Uninsured,Home,1,1,15.0,12,140.0,72.0,77.0,,0
+1159,47,Female,Stroke,Urgent,Medicare,Home Health Care,1,11,21.0,12,123.0,69.0,74.0,92.8,0
+1160,44,Male,Heart Failure,Emergency,Private,Home,0,3,6.0,5,128.0,68.0,104.0,177.0,0
+1161,62,Female,Kidney Disease,Urgent,Medicaid,Home,4,6,7.0,19,104.0,77.0,91.0,135.0,1
+1162,56,Female,Heart Failure,Emergency,Medicaid,Home,2,10,2.0,5,172.0,88.0,99.0,91.3,0
+1163,83,Female,COPD,Elective,Private,Home,1,11,9.0,18,131.0,73.0,73.0,109.1,1
+1164,58,Male,Stroke,Emergency,Medicaid,Home,2,9,2.0,19,139.0,87.0,83.0,125.3,1
+1165,57,Female,Pneumonia,Elective,Medicare,Home Health Care,1,4,18.0,10,120.0,52.0,88.0,117.3,0
+1166,26,Male,Pneumonia,Urgent,Medicare,Home,1,10,3.0,17,118.0,75.0,74.0,130.9,0
+1167,19,Male,Diabetes,Elective,Private,Skilled Nursing Facility,3,1,17.0,14,164.0,94.0,81.0,122.7,0
+1168,48,Male,Diabetes,Emergency,Medicaid,Home,0,4,14.0,15,95.0,78.0,73.0,64.4,0
+1169,94,Male,Diabetes,Urgent,Medicare,Home Health Care,1,3,24.0,2,,70.0,88.0,60.0,0
+1170,88,Male,COPD,Emergency,Private,Skilled Nursing Facility,3,6,9.0,3,108.0,72.0,62.0,105.1,1
+1171,66,Male,COPD,Urgent,Medicaid,Home,1,10,9.0,2,123.0,44.0,91.0,142.4,0
+1172,66,Female,Diabetes,Emergency,Medicare,Home,1,9,6.0,1,119.0,68.0,87.0,105.5,0
+1173,48,Male,Diabetes,Emergency,Medicare,Home,3,11,13.0,16,112.0,93.0,79.0,169.5,1
+1174,31,Male,Diabetes,Emergency,Medicare,Transferred,0,2,6.0,4,131.0,73.0,89.0,118.1,0
+1175,18,Female,Diabetes,Emergency,Medicare,Transferred,2,9,3.0,1,84.0,74.0,77.0,174.3,0
+1176,44,Female,Heart Failure,Emergency,Medicare,Home,0,8,23.0,18,124.0,52.0,72.0,166.1,1
+1177,42,Female,Kidney Disease,Urgent,Medicare,Skilled Nursing Facility,0,6,17.0,6,128.0,60.0,90.0,162.1,1
+1178,32,Male,Pneumonia,Emergency,Medicare,Home,3,2,3.0,16,106.0,94.0,91.0,71.9,0
+1179,37,Female,,Urgent,Medicare,Home,2,2,15.0,19,157.0,87.0,74.0,120.7,0
+1180,19,Female,,Emergency,Private,Home Health Care,1,11,8.0,10,119.0,64.0,73.0,168.9,0
+1181,64,Male,Kidney Disease,Urgent,Medicare,Home,2,4,5.0,18,126.0,72.0,79.0,130.9,0
+1182,89,Male,Diabetes,Urgent,Uninsured,Home,2,8,12.0,19,119.0,80.0,74.0,142.2,1
+1183,71,Female,Heart Failure,Emergency,Private,Skilled Nursing Facility,0,11,,3,129.0,66.0,105.0,64.5,0
+1184,52,Male,Heart Failure,Urgent,Medicaid,Home,1,6,1.0,3,154.0,56.0,87.0,,0
+1185,50,Male,Heart Failure,Elective,Uninsured,Home Health Care,2,3,9.0,8,175.0,78.0,82.0,88.3,0
+1186,41,Female,Kidney Disease,Urgent,Private,Home,1,6,23.0,11,143.0,87.0,68.0,60.0,0
+1187,28,Female,Stroke,Emergency,Medicare,Home,1,3,10.0,15,150.0,87.0,93.0,106.0,0
+1188,64,Female,Heart Failure,Emergency,Private,Home,3,2,3.0,4,161.0,91.0,73.0,60.0,0
+1189,61,Female,Kidney Disease,Urgent,Medicare,Transferred,1,9,11.0,4,134.0,61.0,72.0,76.6,0
+1190,18,Female,Heart Failure,Emergency,Private,Home,1,4,17.0,6,158.0,81.0,94.0,222.3,0
+1191,49,Male,Pneumonia,Urgent,Medicaid,Home,0,8,24.0,6,144.0,77.0,88.0,104.8,0
+1192,39,Male,Kidney Disease,Emergency,Medicare,Home Health Care,3,8,16.0,18,133.0,79.0,44.0,62.9,0
+1193,31,Female,Diabetes,Urgent,Medicare,Transferred,3,7,2.0,8,136.0,77.0,80.0,121.0,0
+1194,72,Male,Heart Failure,Emergency,Uninsured,Skilled Nursing Facility,1,6,20.0,17,97.0,,84.0,84.1,0
+1195,58,Male,Pneumonia,Emergency,Medicare,Home Health Care,1,2,19.0,2,135.0,44.0,77.0,154.6,0
+1196,66,Female,Stroke,Elective,Medicare,Home,2,6,16.0,2,102.0,94.0,84.0,84.4,0
+1197,72,Female,Diabetes,Elective,Medicare,Home Health Care,0,9,22.0,16,101.0,84.0,55.0,130.8,1
+1198,93,Male,Heart Failure,Elective,Medicaid,Skilled Nursing Facility,1,3,19.0,5,133.0,62.0,40.0,74.1,1
+1199,79,Male,Heart Failure,Elective,Private,Skilled Nursing Facility,5,3,6.0,2,110.0,86.0,67.0,224.0,1
+1200,65,Female,COPD,Emergency,Private,Skilled Nursing Facility,1,8,11.0,12,130.0,75.0,86.0,140.1,1
